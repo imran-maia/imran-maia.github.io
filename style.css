@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*Homepage*/
+body {
+  background-color: white;  
+  width: 100%;                
+  max-width: 1200px;          
+  margin: auto;               
+  padding: 20px;
+}
+/*Homepage*/
+
+/*Navigation Bar Section*/
+.navbar {
+  width: calc(100% + 60px); /* Increase the width by 60px */
+  margin-left: -30px;       /* Offset half of the increased width */
+  margin-right: -30px;      /* Offset half of the increased width */
+  padding: 20px 0;          /* Reduce top and bottom padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #333;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: width 0.3s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.navbar ul li:hover a {
+  color: #555;
+}
+/*Navigation Bar Section*/
+
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjust alignment as needed */
+  width: 100%;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px; /* Adjust the margin to create space on the left side */
+}
+
+.head-img img {
+  margin-top: 100px; /* Adjust this value to align the image with the text in the right section */
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.right-section {
+  max-width: 1000px;
+  margin-left: 90px;
+}
+
+.right-section a {
+  text-decoration: none;
+}
+
+.important-updates {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.important-updates h2 {
+  color: rgb(222, 140, 176);
+}
+
+.important-updates ul {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.important-updates li {
+  line-height: 1.6; /* Adjust line height as needed */
+}
+.about h1 {
+  font-size: 20px;
+  margin-top: 50px;
+  color: rgb(45, 45, 47);
+  text-align: left;
+}
+
+.about p {
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 25px;
+  color: black;
+  text-align: justify;
+  
+}
+
+.social-media {
+  display: flex;
+  margin-top: 30px; /* Adjust the margin-top value to position the icons below the header image */
+  text-align: left;
+  
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px; /* Adjust the margin value to create spacing between the icons */
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+  transform: translateY(-5px);
+}
+
+.social-media img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(229, 9, 101, 0.703);
+  transition: filter 0.3s ease;
+}
+
+.social-media a:hover img {
+  filter: brightness(70%);
+}
+
+.social-media a:hover img[src="images/facebook.png"] {
+  filter: brightness(100%) sepia(100%) hue-rotate(200deg);
+}
+
+.social-media a span {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  background-color: #555;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.social-media a:hover span {
+  opacity: 1;
+}
+/*About Section*/
+
+
+
+
+
+/*Education Section*/
+.education {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px; 
+}
+
+.education h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.education-item {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.education-details {
+  flex-grow: 1;
+  text-align: left; 
+}
+
+.education-details strong {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.education-details .duration {
+  font-style: italic;
+}
+
+.education-details p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+/*Education Section*/
+
+
+
+/*Experience Section*/
+.experience {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px; 
+}
+
+.experience h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.experience-item {
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.experience-item img {
+  width: 150px;
+  height: auto;
+  margin-right: 50px;
+}
+
+.experience-details {
+  flex-grow: 1;
+}
+
+.experience-details strong {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.experience-details span {
+  display: block;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.experience-details .duration {
+  font-style: italic;
+}
+
+.experience-details p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+/*Experience Section*/
+
+
+/*Award*/
+/*Experience Section*/
+.award {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+.award h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.award-details {
+  margin-top: 40px;
+}
+
+.award-details ul {
+  padding-left: 20px; /* Adjust this value to change the bullet indentation */
+}
+
+.award-details li {
+  margin-top: 10px; /* Adjust this value for space between list items */
+  font-size: 16px;
+}
+
+/* Targeting bold elements within list items */
+.award-details li b {
+  color: rgb(26, 23, 122); /* Change this color to your desired color */
+}
+
+/*Project Section*/
+.project {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px; 
+  max-width: 1200px;
+}
+
+.project h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.project-item {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative; /* Added position relative to the project item */
+}
+
+.project-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.project-details h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.project-details p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 1000px;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center; /* Horizontally center the images */
+  position: relative;
+}
+
+/* Apply separate sizes to each image class */
+.brain_em-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+.brain_atlas-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.breast-image img {
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.skin-image img {
+  width: 900px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.classification-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.regec-image img {
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.easyhealth-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.robotics-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+/*Project Section*/
+
+
+
+/*Presentaion Section*/
+.presentation {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 50px; 
+  max-width: 1200px;
+}
+
+.presentation h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.presentation-item {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative; /* Added position relative to the project item */
+}
+
+.presentation-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.presentation-details h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.presentation-details p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 1000px;
+}
+
+.presentation-images {
+  display: flex;
+  justify-content: center; /* Horizontally center the images */
+  position: relative;
+}
+
+/* Apply separate sizes to each image class */
+.brain_em-image img {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+/*Project Section*/
+
+
+/*Presenation*/
+.presentation {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.presentation h1 {
+  font-size: 30px;
+  color: forestgreen;
+  text-align: center;
+}
+
+.presentation-item {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative; /* Added position relative to the project item */
+}
+
+.presentation-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.presentation-details h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.presentation-details p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.presentation-images {
+  display: flex;
+  justify-content: center; /* Horizontally center the images */
+  position: relative;
+}
+
+.dsp-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.ip-image img {
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+/* Add more classes and rules for additional images if needed */
+
+
+/* Add more classes and rules for additional images if needed */
+
+
+
+/* ... (existing CSS code) ... */
+
+/* Round button styles */
+.round-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 30px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #ccc;
+  color: green;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.round-button:last-child {
+  margin-right: 0;
+}
+
+.round-button:hover {
+  background-color: #aaa;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+/* ... (existing CSS code) ... */
+
+@media (max-width: 768px) {
+  .about {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .about h1 {
+    font-size: 25px;
+  }
+
+  .head-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-media {
+    margin-top: 40px;
+  }
+
+  .social-media img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .research {
+    width: 90%;
+  }
+
+  .research h2 {
+    font-size: 20px;
+  }
+
+  .experience {
+    width: 90%;
+  }
+
+  .experience h1 {
+    font-size: 25px;
+  }
+
+  .experience-item img {
+    width: 120px;
+  }
+
+  .experience-details strong {
+    font-size: 18px;
+  }
+
+  .experience-details span {
+    font-size: 14px;
+  }
+
+  .experience-details p {
+    font-size: 14px;
+  }
+
+  .education {
+    width: 90%;
+  }
+
+  .education h1 {
+    font-size: 25px;
+  }
+
+  .education-item img {
+    width: 120px;
+  }
+
+  .education-details strong {
+    font-size: 18px;
+  }
+
+  .education-details span {
+    font-size: 14px;
+  }
+
+  .education-details p {
+    font-size: 14px;
+  }
+}
