@@ -324,11 +324,49 @@ body {
   color: rgb(26, 23, 122); /* Change this color to your desired color */
 }
 
+
+
+/*Award*/
+/*Activites Section*/
+.activities {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+
+.activities h1 {
+  font-size: 24px;
+  color: rgb(122, 154, 193);
+  text-align: left;
+}
+
+.activities-details {
+  margin-top: 40px;
+}
+
+.activities-details ul {
+  padding-left: 20px; /* Adjust this value to change the bullet indentation */
+}
+
+.activities-details li {
+  margin-top: 10px; /* Adjust this value for space between list items */
+  font-size: 16px;
+}
+
+/* Targeting bold elements within list items */
+.activities-details li b {
+  color: rgb(26, 23, 122); /* Change this color to your desired color */
+}
+
+
+
 /*Project Section*/
 .project {
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   padding-bottom: 20px;
   margin-left: 50px; 
   max-width: 1200px;
@@ -425,6 +463,13 @@ body {
 }
 
 .robotics-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.cadx-image img {
   width: 800px;
   height: auto;
   border-radius: 8px;
