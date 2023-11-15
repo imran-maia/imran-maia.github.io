@@ -201,7 +201,7 @@ body {
 
 .education h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
@@ -246,7 +246,7 @@ body {
 
 .experience h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
@@ -302,7 +302,7 @@ body {
 
 .award h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
@@ -338,7 +338,7 @@ body {
 
 .activities h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
@@ -374,7 +374,7 @@ body {
 
 .project h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
@@ -469,12 +469,7 @@ body {
   margin-top: 20px;
 }
 
-.cadx-image img {
-  width: 700px;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 20px;
-}
+cadx
 /*Project Section*/
 
 
@@ -491,7 +486,7 @@ body {
 
 .presentation h1 {
   font-size: 24px;
-  color: rgb(122, 154, 193);
+  color: rgb(22, 135, 22);
   text-align: left;
 }
 
