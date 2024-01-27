@@ -84,6 +84,7 @@ body {
   margin-top: 100px; /* Adjust this value to align the image with the text in the right section */
   width: 300px;
   height: 300px;
+  margin-right: 20px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -91,7 +92,7 @@ body {
 
 .right-section {
   max-width: 1000px;
-  margin-left: 90px;
+  margin-left: 80px;
 }
 
 .right-section a {
@@ -104,7 +105,7 @@ body {
 }
 
 .important-updates h2 {
-  color: rgb(222, 140, 176);
+  color: rgb(29, 33, 237);
 }
 
 .important-updates ul {
@@ -141,7 +142,7 @@ body {
 
 .social-media a {
   display: inline-block;
-  margin: 0 10px; /* Adjust the margin value to create spacing between the icons */
+  margin: 0 5px; /* Adjust the margin value to create spacing between the icons */
   position: relative;
   transition: transform 0.3s ease;
 }
