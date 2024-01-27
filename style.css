@@ -414,6 +414,36 @@ body {
 }
 
 /* Apply separate sizes to each image class */
+
+
+
+.bratseg-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+
+
+.lung_ct_reg-image img {
+  width: 800px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+.cadx_tf-image img {
+  width: 700px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+
+}
+
+
 .brain_em-image img {
   width: 500px;
   height: auto;

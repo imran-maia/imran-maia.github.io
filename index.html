@@ -145,7 +145,7 @@
         Alzheimer's Disease Classification, and Breast Mass Segmentation and Detection. 
         I aim to contribute innovative solutions for accurate diagnosis and improved patient outcomes.
 
-        <br><br>Currently,  I am a graduate research intern at the <a href="https://www.cnrs.fr/fr" target="_blank">National Centre for Scientific Research (CNRS)</a>
+        <br><br>Currently,  I am a graduate research intern at the <a href="https://www.cnrs.fr/fr" target="_blank">National Center for Scientific Research (CNRS)</a>
         in France, working on the project titled "Evaluating the Impact of Fusion Strategies in Multimodal Models for Alzheimer’s Disease Early Detection Using Artificial Intelligence" with  
         <a href="https://www.manon-ansart.fr/" target="_blank">Professor Dr. Manon Ansart</a>.
         
@@ -297,6 +297,78 @@
   <!-- Class for Project Section-->
   <div id="project" class="project">
     <h1>PROJECTS</h1>
+
+    <div class="project-item">
+      <div class="project-details">
+        <h2>Automatic Brain Tissue Segmentation from MRI: A Comparative Study between Statistical and Deep Learning Approach</h2>
+        <div class="project-images bratseg-image">
+          <img src="images/bratseg_challenge.png" alt="Project Image 1">
+        </div>
+        <p>
+          The segmentation of brain tissues in Magnetic Resonance Imaging (MRI) is crucial for neurodegenerative analysis, facilitating 
+          the study of diseases such as Alzheimer's, Parkinson's, and Multiple Sclerosis (MS). This project explores several deep learning models, 
+          including U-Net, nnU-Net, and LinkNet, for segmenting MRI brain tissues using the IBSR18 dataset. Pretrained weights from ImageNet, such 
+          as ResNet 34 and ResNet 50, were utilized as backbones for U-Net and LinkNet to enhance the models' performance and feature extraction 
+          capabilities. In addition, statistical method, such as Probabilistic ATLAS, is incorporated for comparison. Performance assessment reveals 
+          that 3D nnU-Net excels with an average mean Dice Score of 0.937 ± 0.012. Notably, 2D nnU-Net outperforms in Hausdorff Distance (5.005 ± 0.343) and Absolute Volumetric Difference (3.695 ± 2.931). 
+          This comprehensive analysis highlights the unique strengths of each model in different aspects of brain tissue segmentation
+        </p>
+        <div class="buttons">
+          <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" download class="round-button">Report</a>
+          <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" download class="round-button">Code</a>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="project-item">
+      <div class="project-details">
+        <h2>Lung Computed Tomography Image Registration: A Comparative Study between Intensity Based Method and Deep Learning</h2>
+        <div class="project-images lung_ct_reg-image">
+          <img src="images/lung_ct_reg.png" alt="Project Image 1">
+        </div>
+        <p>
+          Image registration, essential for both direct diagnosis from aligned images and optimizing algorithmic performance in medical imaging, 
+          played a central role in this project. In this project, we utilized inspiratory and expiratory Breath-Hold CT image pairs from the COPDgene 
+          study repository, with experimentation focusing on key aspects of the registration framework, including the choice of similarity metric, 
+          geometric transformation, interpolation, and resolutions. To reduce variations across images and enhance comparability for easier image 
+          registration, we preprocessed intensities. Utilizing Elastix and Transformix computer software, we conducted intensity-based registrations, 
+          both rigid and non-rigid, on unsegmented and segmented lung structures. Our approach involved defining a region of interest and excluding 
+          non-essential areas. As a result, our method demonstrated an average mean Target Registration Error (TRE) of 2.08 ± 2.26 mm, highlighting 
+          the effectiveness of our approach and the fine-tuned parameters. Additionally, using VoxelMorph, we achieved an average mean 
+          TRE of 2.18 ± 2.74 mm for the same cases. These findings underscore 
+          the success of our methodology in achieving accurate image registration and its potential impact on supporting medical imaging diagnosis.
+        </p>
+        <div class="buttons">
+          <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration" download class="round-button">Report</a>
+          <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration/tree/main/Report" download class="round-button">Code</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-item">
+      <div class="project-details">
+        <h2>Skin Lesion Classification Challenge Using Transfer Learning</h2>
+        <div class="project-images cadx_tf-image">
+          <img src="images/Cadx_tf.png" alt="Project Image 1">
+        </div>
+        <p>
+          Skin lesions, with the potential to manifest as malignant tumors, pose a significant health risk. 
+          This project addresses the need for early diagnosis by developing a skin lesion classification model using transfer learning. 
+          The pipeline encompasses image preprocessing, data augmentation, model training and validation, ensemble modeling, and prediction. 
+          Leveraging diverse models such as ResNet, ResNext, RegNet, DenseNet, EfficientNet, SwinTransformer, and VisionTransformer underscores 
+          the potential of deep learning in enhancing accuracy and speed for dermatologists and healthcare professionals in skin lesion diagnoses.
+           The project utilizes a mixed dataset from HAM10000, BCN_20000, and MSK Dataset, achieving an 
+          impressive accuracy of 0.91 in binary classification and a kappa score of 0.94 in multiclass classification on test data.
+        <div class="buttons">
+          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Deep-Learning" download class="round-button">Report</a>
+          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Deep-Learning" download class="round-button">Code</a>
+        </div>
+      </div>
+    </div>
+
 
     <div class="project-item">
       <div class="project-details">
