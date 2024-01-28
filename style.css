@@ -670,7 +670,7 @@ body {
 }
 
 
-/* Style for Go to Top Button */
+/* Style for Go to Top Button: */
 .go-to-top {
   position: fixed;
   bottom: 20px;
@@ -688,6 +688,12 @@ body {
 .go-to-top img {
   width: 20px; /* Adjust the size of the arrow as desired */
 }
+
+
+
+
+
+
 
 
 /* ... (existing CSS code) ... */
