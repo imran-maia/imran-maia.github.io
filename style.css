@@ -22,8 +22,8 @@ body {
   margin-right: -30px;      /* Offset half of the increased width */
   padding: 20px 0;          /* Reduce top and bottom padding */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
