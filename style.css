@@ -669,6 +669,27 @@ body {
   margin-top: 20px;
 }
 
+
+/* Style for Go to Top Button */
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF; /* Change the background color as desired */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Style for Go to Top Button Icon (Arrow) */
+.go-to-top img {
+  width: 20px; /* Adjust the size of the arrow as desired */
+}
+
+
 /* ... (existing CSS code) ... */
 
 @media (max-width: 768px) {
@@ -751,3 +772,4 @@ body {
     font-size: 14px;
   }
 }
+

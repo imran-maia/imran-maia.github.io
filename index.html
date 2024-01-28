@@ -203,7 +203,34 @@
         </div>
 
     </div>
+
+
+
   </div>
+  
+  
+  <!-- Go to Top Button -->
+  <div class="go-to-top" onclick="goToTop()">
+    &#9650; <!-- Unicode character for an upward arrow -->
+  </div>
+
+  <script>
+    // JavaScript function to scroll to the top
+    function goToTop() {
+      $('html, body').animate({ scrollTop: 0 }, 800);
+    }
+
+    // JavaScript function to show/hide the Go to Top button based on scroll position
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+          $('.go-to-top').fadeIn();
+        } else {
+          $('.go-to-top').fadeOut();
+        }
+      });
+    });
+  </script>
 
  
   <!-- Class for Education Section -->
