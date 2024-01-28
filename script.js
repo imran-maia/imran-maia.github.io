@@ -1,4 +1,4 @@
-// script.js
+// Java script file: script.js
 
 $(document).ready(function() {
     // Scroll to About section
