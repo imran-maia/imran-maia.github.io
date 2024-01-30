@@ -845,7 +845,7 @@ body {
 /* Styles for screens up to 480px wide */
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 12px;
+    font-size: 3vmax;
   }
 
   .about h1 {
