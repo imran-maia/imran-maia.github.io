@@ -697,28 +697,24 @@ body {
 
 
 
-/* ... (existing CSS code) ... */
-
 /* Default styles for larger screens */
-
 @media only screen and (max-width: 768px) {
   /* Styles for screens up to 768px wide */
   body {
     font-size: 14px;
   }
-  /* Adjust other styles as needed */
-}
 
-@media only screen and (max-width: 480px) {
-  /* Styles for screens up to 480px wide */
-  body {
-    font-size: 12px;
+  .navbar {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px 0;
   }
-  /* Adjust other styles as needed */
-}
 
+  .navbar ul li {
+    margin: 0 15px;
+  }
 
-@media (max-width: 768px) {
   .about {
     width: 90%;
     font-size: 16px;
@@ -726,15 +722,66 @@ body {
 
   .about h1 {
     font-size: 25px;
+    margin-top: 30px;
   }
 
   .head-img img {
     width: 150px;
     height: 150px;
+    margin-top: 50px;
+  }
+
+  .left-section {
+    margin-left: 0;
+  }
+
+  .right-section {
+    margin-left: 0;
+  }
+
+  .right-section a {
+    text-decoration: none;
+  }
+
+  .important-updates {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .important-updates h2 {
+    font-size: 18px;
+  }
+
+  .important-updates ul {
+    margin-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .important-updates li {
+    line-height: 1.6;
+  }
+
+  .about h1 {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .about p {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
   }
 
   .social-media {
-    margin-top: 40px;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .social-media a {
+    margin: 0 5px;
   }
 
   .social-media img {
@@ -742,64 +789,117 @@ body {
     height: 40px;
   }
 
-  .research {
+  .education,
+  .experience,
+  .award,
+  .activities,
+  .project,
+  .presentation {
     width: 90%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
-  .research h2 {
+  .education h1,
+  .experience h1,
+  .award h1,
+  .activities h1,
+  .project h1,
+  .presentation h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .education-item img,
+  .experience-item img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .education-details strong,
+  .experience-details strong,
+  .award-details li b,
+  .activities-details li b,
+  .project-details h2,
+  .presentation-details h2 {
+    font-size: 18px;
+  }
+
+  .education-details span,
+  .experience-details span,
+  .award-details li,
+  .activities-details li,
+  .project-details p,
+  .presentation-details p {
+    font-size: 14px;
+  }
+
+  .go-to-top {
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+/* Styles for screens up to 480px wide */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .about h1 {
     font-size: 20px;
   }
 
-  .experience {
-    width: 90%;
+  .head-img img {
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
   }
 
-  .experience h1 {
-    font-size: 25px;
+  .social-media img {
+    width: 30px;
+    height: 30px;
   }
 
+  .education h1,
+  .experience h1,
+  .award h1,
+  .activities h1,
+  .project h1,
+  .presentation h1 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .education-item img,
   .experience-item img {
-    width: 120px;
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
   }
 
-  .experience-details strong {
-    font-size: 18px;
+  .education-details strong,
+  .experience-details strong,
+  .award-details li b,
+  .activities-details li b,
+  .project-details h2,
+  .presentation-details h2 {
+    font-size: 16px;
   }
 
-  .experience-details span {
-    font-size: 14px;
+  .education-details span,
+  .experience-details span,
+  .award-details li,
+  .activities-details li,
+  .project-details p,
+  .presentation-details p {
+    font-size: 12px;
   }
 
-  .experience-details p {
-    font-size: 14px;
+  .go-to-top {
+    right: 5px;
+    bottom: 5px;
   }
-
-  .education {
-    width: 90%;
-  }
-
-  .education h1 {
-    font-size: 25px;
-  }
-
-  .education-item img {
-    width: 120px;
-  }
-
-  .education-details strong {
-    font-size: 18px;
-  }
-
-  .education-details span {
-    font-size: 14px;
-  }
-
-  .education-details p {
-    font-size: 14px;
-  }
-
-
-
-
 }
-
