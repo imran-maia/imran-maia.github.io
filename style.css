@@ -692,40 +692,36 @@ body {
 }
 
 
+/* Add this part for mobile compatibility */
 
+@media only screen and (max-width: 600px) {
+  /* Adjustments for smaller screens */
 
-/* Default styles for larger screens */
-@media only screen and (max-width: 768px) {
-  /* Styles for screens up to 768px wide */
+  /* Homepage */
   body {
-    font-size: 14px;
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
+  /* Navigation Bar Section */
   .navbar {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    padding: 10px 0;
   }
 
   .navbar ul li {
     margin: 0 15px;
   }
 
+  /* About Section */
   .about {
-    width: 90%;
-    font-size: 16px;
-  }
-
-  .about h1 {
-    font-size: 25px;
-    margin-top: 30px;
+    align-items: center;
   }
 
   .head-img img {
+    margin-top: 10px;
     width: 150px;
     height: 150px;
-    margin-top: 50px;
   }
 
   .left-section {
@@ -733,174 +729,91 @@ body {
   }
 
   .right-section {
+    max-width: 100%;
     margin-left: 0;
-  }
-
-  .right-section a {
-    text-decoration: none;
-  }
-
-  .important-updates {
-    font-size: 14px;
-    margin-top: 20px;
-  }
-
-  .important-updates h2 {
-    font-size: 18px;
-  }
-
-  .important-updates ul {
-    margin-top: 10px;
-    font-size: 14px;
-    padding-left: 20px;
-  }
-
-  .important-updates li {
-    line-height: 1.6;
-  }
-
-  .about h1 {
-    font-size: 20px;
-    margin-top: 30px;
-    text-align: center;
-  }
-
-  .about p {
-    margin: 20px 0;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: justify;
   }
 
   .social-media {
-    display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
-  .social-media a {
-    margin: 0 5px;
-  }
-
-  .social-media img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .education,
-  .experience,
-  .award,
-  .activities,
-  .project,
-  .presentation {
-    width: 90%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .education h1,
-  .experience h1,
-  .award h1,
-  .activities h1,
-  .project h1,
-  .presentation h1 {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .education-item img,
-  .experience-item img {
-    width: 120px;
-    height: auto;
-    margin-right: 20px;
-  }
-
-  .education-details strong,
-  .experience-details strong,
-  .award-details li b,
-  .activities-details li b,
-  .project-details h2,
-  .presentation-details h2 {
+  /* Education Section */
+  .education h1 {
     font-size: 18px;
   }
 
-  .education-details span,
-  .experience-details span,
-  .award-details li,
-  .activities-details li,
-  .project-details p,
-  .presentation-details p {
-    font-size: 14px;
+  .education-details strong {
+    font-size: 16px;
   }
 
-  .go-to-top {
-    right: 10px;
-    bottom: 10px;
-  }
-}
-
-
-
-
-
-/* Styles for screens up to 480px wide */
-@media only screen and (max-width: 480px) {
-  body {
-    font-size: 14px;
+  /* Experience Section */
+  .experience h1 {
+    font-size: 18px;
   }
 
-  .about h1 {
-    font-size: 20px;
-  }
-
-  .head-img img {
-    width: 120px;
-    height: 120px;
-    margin-top: 30px;
-  }
-
-  .social-media img {
-    width: 30px;
-    height: 30px;
-  }
-
-  .education h1,
-  .experience h1,
-  .award h1,
-  .activities h1,
-  .project h1,
-  .presentation h1 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-
-  .education-item img,
   .experience-item img {
     width: 80px;
-    height: auto;
     margin-right: 10px;
   }
 
-  .education-details strong,
-  .experience-details strong,
-  .award-details li b,
-  .activities-details li b,
-  .project-details h2,
+  /* Award Section */
+  .award h1 {
+    font-size: 18px;
+  }
+
+  .award-details li {
+    font-size: 14px;
+  }
+
+  /* Activities Section */
+  .activities h1 {
+    font-size: 18px;
+  }
+
+  .activities-details li {
+    font-size: 14px;
+  }
+
+  /* Project Section */
+  .project h1 {
+    font-size: 18px;
+  }
+
+  .project-details h2 {
+    font-size: 16px;
+  }
+
+  .project-images img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  /* Presentation Section */
+  .presentation h1 {
+    font-size: 18px;
+  }
+
   .presentation-details h2 {
     font-size: 16px;
   }
 
-  .education-details span,
-  .experience-details span,
-  .award-details li,
-  .activities-details li,
-  .project-details p,
-  .presentation-details p {
-    font-size: 12px;
+  .presentation-images img {
+    width: 100%;
+    max-width: 300px;
   }
 
+  /* Round button styles */
+  .round-button {
+    font-size: 12px;
+    line-height: 24px;
+    width: 80px;
+    height: 24px;
+  }
+
+  /* Style for Go to Top Button */
   .go-to-top {
-    right: 5px;
-    bottom: 5px;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px;
   }
 }
