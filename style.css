@@ -705,7 +705,7 @@ body {
 
   /* Navigation Bar Section */
   .navbar {
-    width: 100%;
+    width: 90%;
     padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
 
@@ -737,7 +737,7 @@ body {
   }
 
   .right-section {
-    max-width: 100%;
+    max-width: 90%;
     margin-left: 0;
     margin-top: 20px;
   }
@@ -772,7 +772,7 @@ body {
   }
 
   .award-details li {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* Activities Section */
@@ -781,7 +781,7 @@ body {
   }
 
   .activities-details li {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* Project Section */
