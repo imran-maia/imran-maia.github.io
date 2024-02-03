@@ -694,7 +694,7 @@ body {
 
 /* Add this part for mobile compatibility */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* Adjustments for smaller screens */
 
   /* Homepage */
@@ -704,7 +704,7 @@ body {
 
   /* Navigation Bar Section */
   .navbar {
-    width: 100%;
+    width: 50%;
     margin-left: 0;
     margin-right: 0;
   }
