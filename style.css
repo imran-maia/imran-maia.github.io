@@ -695,7 +695,7 @@ body {
 /* Add this part for mobile compatibility */
 /* Add this part for mobile compatibility */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 764px) {
   /* Adjustments for smaller screens */
 
   /* Homepage */
