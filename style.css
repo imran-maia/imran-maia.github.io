@@ -705,7 +705,7 @@ body {
 
   /* Navigation Bar Section */
   .navbar {
-    width: 90%;
+    width: 100%;
     padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
 
@@ -737,7 +737,7 @@ body {
   }
 
   .right-section {
-    max-width: 90%;
+    max-width: 100%;
     margin-left: 0;
     margin-top: 20px;
   }
@@ -788,9 +788,32 @@ body {
   .project h1 {
     font-size: 18px;
   }
-
+  
+  .project-item {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative; /* Added position relative to the project item */
+  }
+  
+  .project-details {
+    flex-grow: 1;
+    text-align: left;
+  }
+  
   .project-details h2 {
     font-size: 16px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .project-details p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 95%; /* Adjusted max-width for better responsiveness */
   }
 
   .project-images img {
