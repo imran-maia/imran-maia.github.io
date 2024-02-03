@@ -707,6 +707,8 @@ body {
   .navbar {
     width: 100%;
     padding: 0px; /* Adjust padding for better spacing on smaller screens */
+    justify-content: center;
+    align-items: center;
   }
 
   .navbar ul {
