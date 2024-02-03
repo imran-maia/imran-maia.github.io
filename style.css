@@ -693,6 +693,7 @@ body {
 
 
 /* Add this part for mobile compatibility */
+/* Add this part for mobile compatibility */
 
 @media only screen and (max-width: 800px) {
   /* Adjustments for smaller screens */
@@ -704,17 +705,23 @@ body {
 
   /* Navigation Bar Section */
   .navbar {
-    width: 50%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 100%;
+    padding: 10px; /* Adjust padding for better spacing on smaller screens */
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .navbar ul li {
-    margin: 0 15px;
+    margin: 5px;
   }
 
   /* About Section */
   .about {
+    flex-direction: column; /* Stack content vertically */
     align-items: center;
   }
 
@@ -726,15 +733,18 @@ body {
 
   .left-section {
     margin-left: 0;
+    margin-top: 20px;
   }
 
   .right-section {
     max-width: 100%;
     margin-left: 0;
+    margin-top: 20px;
   }
 
   .social-media {
     margin-top: 10px;
+    justify-content: center;
   }
 
   /* Education Section */
