@@ -14,7 +14,7 @@ body {
   padding: 20px;
 }
 /*Homepage*/
-/*Homepage*/
+
 
 /*Navigation Bar Section*/
 .navbar {
@@ -367,13 +367,14 @@ body {
 
 /*Project Section*/
 .project {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 50px;
   padding-bottom: 20px;
   margin-left: 50px; 
   max-width: 1200px;
 }
+
 
 .project h1 {
   font-size: 24px;
@@ -405,7 +406,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: justify;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .project-images {
@@ -514,7 +515,7 @@ body {
 
 /*Presentaion Section*/
 .presentation {
-  width: 80%;
+  width: 100%;
   margin: auto;
   margin-top: 20px;
   padding-bottom: 20px;
@@ -552,7 +553,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: justify;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .presentation-images {
@@ -838,10 +839,14 @@ body {
   }
 }
 
+
+
+
+
 /* Styles for screens up to 480px wide */
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 3vmax;
+    font-size: 14px;
   }
 
   .about h1 {
