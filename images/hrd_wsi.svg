@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">HRD detection project placeholder</title>
+  <desc id="desc">Abstract whole-slide imaging graphic for cancer pathology and AI benchmarking.</desc>
+  <rect width="800" height="520" fill="#f7f4ee"/>
+  <rect x="88" y="92" width="260" height="260" rx="22" fill="#ffffff" stroke="#d8d1c5" stroke-width="3"/>
+  <rect x="452" y="92" width="260" height="260" rx="22" fill="#ffffff" stroke="#d8d1c5" stroke-width="3"/>
+  <g opacity="0.72">
+    <circle cx="160" cy="160" r="22" fill="#ba8f8f"/>
+    <circle cx="230" cy="210" r="28" fill="#d9b2b0"/>
+    <circle cx="292" cy="145" r="20" fill="#b46e7e"/>
+    <circle cx="192" cy="278" r="24" fill="#c97f90"/>
+    <circle cx="278" cy="278" r="18" fill="#d9b2b0"/>
+    <circle cx="522" cy="160" r="22" fill="#7c9ccf"/>
+    <circle cx="598" cy="220" r="28" fill="#b7cae7"/>
+    <circle cx="655" cy="148" r="20" fill="#5f84be"/>
+    <circle cx="545" cy="276" r="24" fill="#87a4d3"/>
+    <circle cx="634" cy="282" r="18" fill="#b7cae7"/>
+  </g>
+  <path d="M348 222 L452 222" stroke="#1e4a3a" stroke-width="4" stroke-dasharray="8 8"/>
+  <text x="78" y="434" fill="#1e2522" font-family="Roboto, Arial, sans-serif" font-size="34" font-weight="700">Foundation Models &amp; MIL</text>
+  <text x="78" y="472" fill="#66706a" font-family="Roboto, Arial, sans-serif" font-size="22">HRD detection in whole-slide pathology images</text>
+</svg>

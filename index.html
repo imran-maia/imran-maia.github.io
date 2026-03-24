@@ -1,699 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Medical Image - Personal website of Mohammad Imran Hossain, an Electrical and Computer Engineer specializing in AI-driven Medical Image Analysis and Computer-Aided Diagnosis.">
-  <meta name="keywords" content="Mohammad Imran Hossain, Electrical Engineer, Computer Engineer, Medical Image Analysis, AI, Computer-Aided Diagnosis, Erasmus+ Scholar">
-
-  <title>Mohammad Imran Hossain</title>
-  <link rel="stylesheet" href="style.css"> 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="script.js"></script>
+  <meta
+    name="description"
+    content="Academic homepage of Mohammad Imran Hossain, focused on computational pathology, multimodal AI, medical image analysis, and AI for healthcare."
+  >
+  <meta
+    name="keywords"
+    content="Mohammad Imran Hossain, academic homepage, computational pathology, multimodal AI, medical image analysis, AI healthcare"
+  >
+  <title>Mohammad Imran Hossain | Academic Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
-
 <body>
-  <!-- Class for Navigation Bar -->
-  <div class="navbar">
-    <ul>
-      <li><a href="#about">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Academic</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#project">Project</a></li>
-      <li><a href="#presentation">Presentation</a></li>
-    </ul>
-  </div>
-
-  
-  <!-- Class for About Section -->
-  <div class="about">
-
-    <!-- Left Section of About-->
-    <div class="left-section">
-
-      <!-- Left Section of About: Image -->
-      <div class="head-img">
-        <img src="images/head (2).jpg" alt="Profile Picture">
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="site-brand" href="#top">Mohammad Imran Hossain</a>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
+          <a href="#publications">Publications</a>
+          <a href="projects.html">Projects</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3.25V1.5M12 22.5v-1.75M5.81 5.81 4.57 4.57M19.43 19.43l-1.24-1.24M3.25 12H1.5M22.5 12h-1.75M5.81 18.19l-1.24 1.24M19.43 4.57l-1.24 1.24M12 17.25A5.25 5.25 0 1 0 12 6.75a5.25 5.25 0 0 0 0 10.5Z"/>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.1 14.2A8.6 8.6 0 0 1 9.8 3.9a8.9 8.9 0 1 0 10.3 10.3Z"/>
+            </svg>
+          </button>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
       </div>
+    </header>
 
-      <!-- Left Section of About: Name -->
-      <div class="name">
-        <h1>MOHAMMAD IMRAN HOSSAIN</h1>
-      </div>
-
-      <!-- Left Section of About: Social Media links -->
-      <div class="social-media">
-        <a href="https://www.facebook.com/imranhossain.imran.31" target="_blank">
-          <img src="images/facebook.png" alt="Facebook">
-          <span>Facebook</span>
-        </a>
-        <a href="https://twitter.com/imran_hossain23" target="_blank">
-          <img src="images/twitter.png" alt="Twitter">
-          <span>Twitter</span>
-        </a>
-        <a href="https://www.instagram.com/imranhossain.imran.31/" target="_blank">
-          <img src="images/instagram.png" alt="Instagram">
-          <span>Instagram</span>
-        </a>
-        <a href="https://www.linkedin.com/in/mohammad-imran-hossain-23721812a/" target="_blank">
-          <img src="images/linkedin.png" alt="Linkedin">
-          <span>Linkedin</span>
-        </a>
-        <a href="https://github.com/imran-maia" target="_blank">
-          <img src="images/github.png" alt="GitHub">
-          <span>GitHub</span>
-        </a>
-
-        
-      </div>
-
-      <p>
-        <br>
-        <b>Email: <a href="mailto:hossainimran.maia@gmail.com" target="_blank">hossainimran.maia@gmail.com</a></b>
-        <br><br>
-        Address: 1 Place Montespan, 91380 Chilly-Mazarin, France.
-      </p>
-      
-      <p style="text-align: center;">
-        Please Click to
-        <a href="https://drive.google.com/file/d/1ocrj8F43UyMyI_sYVQobtr4LrKAwdZVW/view?usp=drive_link" target="_blank" download>[Download CV]</a>
-      </p>
-
-      <p>
-        <b>Copyright &copy;</b> 
-        Mohammad Imran Hossain Official Webpage 2024.
-      </p>
-  
-
-
-    </div>
-    
-    <!-- Right Section of About: Biography -->
-    <div class="right-section"> 
-      <style>
-        .right-section a {
-          text-decoration: none;
-        }
-      </style>
-      <p>
-        <font size="5"><b>About Me</b></font>
-        <br><br>
-        I am a graduate student of the <a href="https://www.sorbonne-universite.fr/en/programs/master-computer-science-bioinformatics-and-modeling" target="_blank">Master of Computer Science (Bioinformatics and Modeling specialization)</a> at the <a href="https://www.sorbonne-universite.fr/en" target="_blank">Sorbonne University</a> in France.
-        I priviously completed prestigious <a href="https://maiamaster.udg.edu/" target="_blank">Erasmus Mundus Joint Master Degree in Medical Imaging and Applications</a>,
-        fully funded by the European Union and jointly coordinated by the 
-        <a href="https://www.udg.edu/en/" target="_blank">University of Girona</a> (Spain), 
-        the <a href="https://www.unicas.it/" target="_blank">University of Cassino and Southern Lazio</a> (Italy), and 
-        the <a href="https://www.u-bourgogne.fr/" target="_blank">University of Burgundy</a> (France). 
-       
-        
-        
-        <br><br>Additionally, I was also a recipient of the
-        <a href="https://stipendiumhungaricum.hu/" target="_blank">Stipendium Hungaricum Scholarship</a> for 
-        the Master of Science in Electrical Engineering at the 
-        <a href="https://www.bme.hu/" target="_blank">Budapest University of Technology and Economics</a> (Hungary).
-
-        I received the Bachelor of Science in Electrical and Electronic Engineering with the highest academic distinction 'Summa Cum Laude' from the <a href="https://www.uiu.ac.bd/" target="_blank">United International University</a> (Bangladesh) in 2022. My undergraduate research project "Electronic Toll Collection System Using Optical Wireless Communication" 
-        was supervised by <a href="https://eee.uiu.ac.bd/profiles/rmostafa/" target="_blank">Professor Dr. Raqibul Mostafa</a>.
-
-        <br><br>Specializing in AI-driven Medical Image Analysis and Computer-Aided Diagnosis (CAD), I am committed to advancing healthcare. 
-        My research projects include Skin Lesion Detection, Functional Neuroimaging, Brain Tissue Registration and Segmentation, 
-        Alzheimer's Disease Classification, Breast Mass Segmentation and Detection, and Computational Pathology. 
-        I aim to contribute innovative solutions for accurate diagnosis and improved patient outcomes.
-
-        <br><br>I completed my master's internship at the <a href="https://www.cnrs.fr/fr" target="_blank">National Center for Scientific Research (CNRS)</a>
-        in France, working on the project titled "Deep Learning-Based Detection of Homologous Recombination Deficiency (HRD) in Breast and Ovarian Cancer Whole Slide Histopathology Images" with  
-        <a href="https://www.manon-ansart.fr/" target="_blank">Professor Dr. Manon Ansart</a>.
-        
-        Before that, I worked as a visiting researcher at the <a href="https://www.diagnijmegen.nl/people/mohammad-imran-hossain/" target="_blank">Diagnostic Image Analysis Group (DIAG)</a> at Radboud University Medical Center in 
-        The Netherlands on the project "Real-time MR Image Reconstruction Using Deep Learning" under the supervision of <a href=" https://www.diagnijmegen.nl/people/stan-noordman/" target="_blank">Stan Noordman.</a>
-      
-        <br><br>I am driven by a commitment to advancing healthcare through innovative solutions and look forward to contributing significantly to 
-        the intersection of engineering and medicine in my future endeavours.
-        
-         <!-- Reseach Interst Section -->
-        <br><br><b>Research Interests:</b> Medical Image Analysis & Computation, Computational Pathology, Computer-Aided Diagnosis, Machine & Deep Learning, AI in HealthCare.
-
-
-        <!-- Important Updates Section -->
-        <div class="important-updates">
-          <h2>Important Updates:</h2>
-          <ul> 
-            <li><b>[Feb 2024]</b> Started Master's Thesis at the National Center for Scientific Research [CNRS] (France).</li>
-            <li><b>[Jan 2024]</b> Ranked 2nd in the MAIA Brain Tissue Segmentation Challenge at UdG (Spain).</li>
-            <li><b>[Nov 2023]</b> Ranked 2nd in the MAIA CADx Skin Lesion Classification Challenge at UdG (Spain).</li>
-            <li><b>[Sep 2023]</b> Started the third semester of the Joint Master's at the Univeristy of Girona (Spain).</li>
-            <li><b>[Sep 2023]</b> Participated in the 17th EXCITE Summer School on Biomedical Imaging at UZH and ETH Zurich (Switzerland). </li>
-            <li><b>[Jul 2023]</b> Started summer internship at DIAG, RadboudUMC (The Netherlands). </li>
-            <li><b>[Jun 2023]</b> Breast mass detection research project is presented at the Advance Image Analysis project defence at UNICAS (Italy).</li>
-            <li><b>[Jun 2023]</b> Skin lesion detection research project is presented at the Machine & Deep Learning project defence at UNICAS (Italy).</li>
-            <li><b>[Jun 2023]</b> Ranked 2nd in the regression challenge at the Italian National Research Council (Italy).</li>
-            <li><b>[Feb 2023]</b> Started the second semester of the Joint Master's at the Univeristy of Cassino (Italy).</li>
-            <li><b>[Jan 2023]</b> Presented research poster on Parkinson's disease and EEG signals at uB (France).</li>
-            <li><b>[Jan 2023]</b> Presented research poster on Brain Tumor detection from MR Images at uB (France).</li>
-            <li><b>[Dec 2022]</b> Bibliography review project on Brain Tumor Detection is presented at the Medical Sensor project defence at uB (France).</li>
-            <li><b>[Sep 2022]</b> Started the first semester of the Joint Master's at the Univeristy of Burgundy (France).</li>
+    <main id="top">
+      <section class="hero" id="about">
+        <div class="hero-copy">
+          <p class="eyebrow">Research Engineer | PhD Applicant in AI for Healthcare</p>
+          <h1><span class="name-strong">Mohammad Imran</span> <span class="name-light">Hossain</span></h1>
+          <p class="hero-role">
+            Multimodal AI for healthcare, computational pathology, and medical image analysis.
+          </p>
+          <p class="hero-summary">
+            I am a Research Engineer at <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> - <a href="https://www.psl.eu/" target="_blank" rel="noreferrer">PSL Research University</a> in Paris, where I develop computational
+            pipelines combining deep learning and statistical methods to study the tumor microenvironment from
+            histopathology and spatial transcriptomics data. My work spans computational pathology, weakly supervised
+            learning for whole-slide images, multimodal data integration for cancer biology, and broader medical image
+            analysis including segmentation, registration, and diagnostic modeling.
+          </p>
+          <div class="search-focus">
+            <strong>Actively seeking PhD positions</strong> in computational pathology, multimodal medical AI, or AI
+            for oncology and medical image analysis for the 2026/2027 intake.
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="Mohammad_Imran_Hossain_CV.pdf" download>Curriculum Vitae</a>
+            <a class="button button-secondary" href="mailto:hossainimran.maia@gmail.com">Contact</a>
+          </div>
+          <ul class="key-facts">
+            <li>Research Engineer, <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> - <a href="https://www.psl.eu/" target="_blank" rel="noreferrer">PSL</a> (Paris)</li>
+            <li>Best Thesis Award, <a href="https://www.sorbonne-universite.fr/" target="_blank" rel="noreferrer">Sorbonne University</a></li>
+            <li>Erasmus+ Scholar | <a href="https://maiamaster.udg.edu/" target="_blank" rel="noreferrer">Joint Master Degree in Medical Imaging & AI</a> | European Union</li>
+            <li>Research Intern at <a href="https://www.cnrs.fr/en" target="_blank" rel="noreferrer">CNRS</a>, <a href="https://www.radboudumc.nl/en/" target="_blank" rel="noreferrer">RadboudUMC</a>, <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> / <a href="https://www.sanofi.com/en/" target="_blank" rel="noreferrer">Sanofi</a></li>
           </ul>
-
-          <br><br>
-
-          <h2>Ongoing Research:</h2>
-          <ul>
-            <li> Deep Learning-Based Detection of Homologous Recombination Deficiency (HRD) in Breast and Ovarian Cancer Whole Slide Histopathology Images.</li>
-            <li> Identification of Osteonecrosis using Artificial Intelligence and Machine Learning.</li>
-          </ul>
-          
         </div>
 
-    </div>
+        <aside class="hero-profile">
+          <img src="images/head-professional.jpg" alt="Portrait of Mohammad Imran Hossain">
+          <div class="hero-profile__meta">
+            <p>Based in Paris area, France</p>
+            <div class="profile-links">
+              <a href="https://www.linkedin.com/in/mohammad-imran-hossain-23721812a/" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A1.97 1.97 0 0 0 3.28 5c0 1.08.88 1.94 1.94 1.94H5.25c1.1 0 1.97-.86 1.97-1.94A1.95 1.95 0 0 0 5.25 3ZM20.44 12.95c0-3.34-1.78-4.89-4.16-4.89-1.92 0-2.78 1.06-3.26 1.8V8.5H9.66c.04.9 0 11.5 0 11.5h3.36v-6.42c0-.34.03-.68.12-.93.27-.68.9-1.38 1.95-1.38 1.37 0 1.92 1.04 1.92 2.57V20H20.4l.04-7.05Z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/imran-maia" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.82-.26.82-.58v-2.03c-3.34.72-4.04-1.42-4.04-1.42-.55-1.38-1.33-1.74-1.33-1.74-1.08-.73.08-.71.08-.71 1.2.08 1.83 1.22 1.83 1.22 1.05 1.82 2.77 1.3 3.45 1 .11-.77.42-1.3.76-1.6-2.67-.3-5.47-1.32-5.47-5.9 0-1.3.47-2.37 1.22-3.2-.12-.3-.53-1.52.12-3.16 0 0 1-.32 3.3 1.22a11.5 11.5 0 0 1 6 0c2.3-1.54 3.3-1.22 3.3-1.22.65 1.64.24 2.86.12 3.16.76.83 1.22 1.9 1.22 3.2 0 4.6-2.8 5.6-5.48 5.9.43.37.82 1.1.82 2.22v3.3c0 .32.22.7.83.58A12 12 0 0 0 12 .5Z"/>
+                </svg>
+              </a>
+              <a href="https://twitter.com/imran_hossain23" target="_blank" rel="noreferrer" aria-label="X" title="X">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M18.9 2H22l-6.77 7.74L23.2 22h-6.25l-4.9-6.4L6.46 22H3.35l7.24-8.27L.8 2h6.4l4.42 5.83L18.9 2Zm-1.1 18h1.73L6.3 3.9H4.45L17.8 20Z"/>
+                </svg>
+              </a>
+              <a href="mailto:hossainimran.maia@gmail.com" aria-label="Email" title="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 5.5h18A1.5 1.5 0 0 1 22.5 7v10A1.5 1.5 0 0 1 21 18.5H3A1.5 1.5 0 0 1 1.5 17V7A1.5 1.5 0 0 1 3 5.5Zm0 2v.27l9 5.93 9-5.93V7.5H3Zm18 9V9.56l-8.59 5.66a.75.75 0 0 1-.82 0L3 9.56v6.94h18Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </section>
 
-
-
-  </div>
-  
-  
-  <!-- Go to Top Button -->
-  <div class="go-to-top" onclick="goToTop()">
-    &#9650; <!-- Unicode character for an upward arrow -->
-  </div>
-
-  <script>
-    // JavaScript function to scroll to the top
-    function goToTop() {
-      $('html, body').animate({ scrollTop: 0 }, 800);
-    }
-
-    // JavaScript function to show/hide the Go to Top button based on scroll position
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-          $('.go-to-top').fadeIn();
-        } else {
-          $('.go-to-top').fadeOut();
-        }
-      });
-    });
-  </script>
-
- 
-  <!-- Class for Education Section -->
-  <div id="education" class="education">
-    <h1>ACADEMIC</h1>
-     
-    <div class="education-item">
-      <div class="education-details">
-        <strong>Master of Computer Science (Bioinformatics and Modeling specialization)</strong>
-        <p><b>Sorbonne University, France</b></p>
-      </div>
-    </div>
-
-    <div class="education-item">
-      <div class="education-details">
-        <strong>17th EXCITE Summer School on Medical Imaging</strong>
-        <p><b>University of Zurich and Swiss Federal Institute and Technology Zurich, Switzerland</b><p>
-      </div>
-    </div>
-
-    <div class="education-item">
-      <div class="education-details">
-        <strong>Erasmus Mundus Joint Master Degree in Medical Imaging and Applications</strong>
-        <p><b>University of Girona, Spain</b>  <i>[Master of Science in Medical Imaging and Applications]</i></p>
-        <p><b>University of Burgundy, France</b>  <i>[Master of Science in Computer Vision]</i></p>
-        <p><b>University of Cassino and Southern Lazio, Italy</b>  <i>[Master of Science in Computer Engineering]</i></p>
-      </div>
-    </div>
-
-
-    <div class="education-item">
-      <div class="education-details">
-        <strong>Bachelor of Science in Electrical and Electronic Engineering</strong>
-        <p><b>United International University, Bangladesh</b></p>
-      </div>
-    </div>
-
-  </div>
-
-
-  <!-- Class for Experience Section -->
-  <div id="experience" class="experience">
-    <h1>EXPERIENCE</h1>
-    
-    <div class="experience-item">
-      <div class="experience-details">
-        <strong>Graduate Research Intern</strong>
-        <p><b>National Center for Scientific Research (CNRS), France</b></p>
-        <p>Project: Deep Learning-Based Detection of Homologous Recombination Deficiency (HRD) in Breast and Ovarian Cancer Whole Slide Histopathology Images.</p>
-      </div>
-    </div>
-
-    <div class="experience-item">
-      <div class="experience-details">
-        <strong>Visiting Researcher</strong>
-        <p><b>Diagnostic Image Analysis Group (DIAG), Radboud University Medical Center, The Netherlands</b></p>
-        <p>Project: Real-time MR Image Reconstruction for Interventional Radiology.</p>
-      </div>
-    </div>
-  
-    <div class="experience-item">
-      <div class="experience-details">
-        <strong>Program Representative</strong>
-        <span><b>Erasmus Mundus Association, Belgium</b></span>
-      </div>
-    </div>
-
-    <div class="experience-item">
-      <div class="experience-details">
-        <strong>Undergraduate Teaching Assistant</strong>
-        <span><b>United International Univeristy, Bangladesh</b></span>
-      </div>
-    </div>
-  </div>
-
-  
-  <!-- Class for Awards Section -->
-  <div id="award" class="award">
-    <h1>AWARDS & ACHIEVEMENTS</h1>
-      <div class="award-details">
-        <li>2024 - Ranked<b> 2nd</b> in MAIA Brain Tissue Segmentation Challenge at the University of Girona (Spain).</li>
-        <li>2023 - Ranked<b> 2nd</b> in MAIA CADx Skin Lesion Classification Challenge at the University of Girona (Spain).</li>
-        <li>2023 - Ranked<b> 2nd</b> in Regression Challenge at the University of Cassino in collaboration with the Italian National Research Council.</li>
-        <li>2023 - Awarded <b>Aquisis International Mobility Grant</b> by the Region Bourgogne Franche Comte (France).</li>
-        <li>2022 - Awarded fully funded <b>Erasmus Mundus Scholarship</b> by the European Union.</li>
-        <li>2022 - Awarded fully funded <b>Stipendium Hungaricum Scholarship</b> by the Goverment of Hungary.</li>
-        <li>2022 - Received <b>Best Academic Distinction Award 'Summa Cum Laude'</b> from the United International Univeristy (Bangladesh).</li>
-        <li>2018 to 2022 - Received <b>Univeristy Scholarship Award</b> from the United International Univeristy (Bangladesh).</li>
-        <li>2012 to 2016 - Awarded  <b>Skill and Training Development Project (STEP) Grant</b> by the World Bank.</li>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Class for Awards Section -->
-  <div id="activities" class="activities">
-    <h1>ACTIVITIES & MEMBERSHIP</h1>
-      <div class="activities-details">
-        <li>Attended <b>MAIA Day</b> 2023 (Italy).</li>
-        <li>Attended <b>Erasmus Mundus Association General Assembly</b> 2023 (Portugal).</li>
-        <li>Attended <b>EIPHI Graduate School Ceremony</b> 2023 (France).</li>
-        <br>
-        <li><b>Member</b>, Erasmus Mundus Association (Belgium).</li>
-        <li><b>Vice President</b>, Students' International Affairs Society, United International University (Bangladesh).</li>
-        <li><b>Member</b>, IEEE UIU Student Branch (Bangladesh).</li>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Class for Project Section-->
-  <div id="project" class="project">
-    <h1>PROJECTS</h1>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Automatic Brain Tissue Segmentation from MRI: A Comparative Study between Statistical and Deep Learning Approach</h2>
-        <div class="project-images bratseg-image">
-          <img src="images/bratseg_challenge.png" alt="Project Image 1">
+      <section class="section intro-section" id="research">
+        <div class="section-heading">
+          <p class="eyebrow">Research</p>
+          <h2>Research interests</h2>
         </div>
-        <p>
-          The segmentation of brain tissues in Magnetic Resonance Imaging (MRI) is crucial for neurodegenerative analysis, facilitating 
-          the study of diseases such as Alzheimer's, Parkinson's, and Multiple Sclerosis (MS). This project explores several deep learning models, 
-          including U-Net, nnU-Net, and LinkNet, for segmenting MRI brain tissues using the IBSR18 dataset. Pretrained weights from ImageNet, such 
-          as ResNet 34 and ResNet 50, were utilized as backbones for U-Net and LinkNet to enhance the models' performance and feature extraction 
-          capabilities. In addition, statistical method, such as Probabilistic ATLAS, is incorporated for comparison. Performance assessment reveals 
-          that 3D nnU-Net excels with an average mean Dice Score of 0.937 ± 0.012. Notably, 2D nnU-Net outperforms in Hausdorff Distance (5.005 ± 0.343) and Absolute Volumetric Difference (3.695 ± 2.931). 
-          This comprehensive analysis highlights the unique strengths of each model in different aspects of brain tissue segmentation
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" download class="round-button">Code</a>
+        <div class="content-grid">
+          <div class="text-block">
+            <p>
+              My research focuses on multimodal deep learning methods that integrate tissue morphology with molecular
+              data, combining histopathology imaging, spatial transcriptomics, and multi-omics signals to extract
+              clinically actionable information from cancer samples. I am particularly interested in weakly supervised
+              and self-supervised approaches that work under the label scarcity constraints of real clinical datasets,
+              while also maintaining a strong interest in medical image analysis problems such as segmentation,
+              registration, reconstruction, and AI-assisted diagnosis.
+            </p>
+          </div>
+          <div class="text-block">
+            <p>
+              At <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> I am currently analyzing Visium HD spatial transcriptomics data alongside H&amp;E
+              histopathology to characterize fibroblast-mediated immune exclusion in lung cancer. Prior work at <a href="https://www.cnrs.fr/en" target="_blank" rel="noreferrer">CNRS</a>
+              benchmarked attention-based multiple instance learning and foundation models for HRD detection in breast
+              and ovarian cancer, achieving AUC 0.78 on breast cancer whole-slide images.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
+        <div class="research-pillars">
+          <div class="pillar">
+            <h3>Computational Pathology</h3>
+            <p>Weakly supervised MIL, foundation models, and whole-slide image analysis for biomarker detection and tumor microenvironment characterization.</p>
+          </div>
+          <div class="pillar">
+            <h3>Spatial &amp; Multi-omics</h3>
+            <p>Visium HD spatial transcriptomics pipelines, cell type deconvolution, and integration with histology for molecular tissue mapping.</p>
+          </div>
+          <div class="pillar">
+            <h3>Medical Image Analysis</h3>
+            <p>MRI reconstruction, image registration, and segmentation with deep learning, including real-time reconstruction for interventional radiology.</p>
+          </div>
+        </div>
+      </section>
 
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Highlights</p>
+          <h2>Selected achievements</h2>
+        </div>
+        <div class="highlights-list">
+          <div class="highlight-item">
+            <span class="highlight-year">2025</span>
+            <p>Joined <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> - <a href="https://www.psl.eu/" target="_blank" rel="noreferrer">PSL Research University</a> as Research Engineer in Bioinformatics and Artificial Intelligence.</p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-year">2025</span>
+            <p>Graduated ranked 1st with Best Thesis Award (Tres Bien) from Sorbonne University, Master's in Bioinformatics and Modeling.</p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-year">2025</span>
+            <p>Identified eight candidate genes mediating CAF-driven immune exclusion in lung squamous cell carcinoma in an <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> / <a href="https://www.sanofi.com/en/" target="_blank" rel="noreferrer">Sanofi</a> collaboration. Manuscript in preparation.</p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-year">2024</span>
+            <p>Ranked 2nd in MAIA Brain Tissue Segmentation Challenge, University of Girona (26 participants).</p>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-year">2022</span>
+            <p>Awarded Erasmus Mundus Scholarship (EUR 42,000) by the European Union for a competitive joint master's across three European universities.</p>
+          </div>
+        </div>
+      </section>
 
-    
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Lung Computed Tomography Image Registration: A Comparative Study between Intensity Based Method and Deep Learning</h2>
-        <div class="project-images lung_ct_reg-image">
-          <img src="images/lung_ct_reg.png" alt="Project Image 1">
+      <section class="section" id="education">
+        <div class="section-heading">
+          <p class="eyebrow">Education</p>
+          <h2>Academic background</h2>
         </div>
-        <p>
-          Image registration, essential for both direct diagnosis from aligned images and optimizing algorithmic performance in medical imaging, 
-          played a central role in this project. In this project, we utilized inspiratory and expiratory Breath-Hold CT image pairs from the COPDgene 
-          study repository, with experimentation focusing on key aspects of the registration framework, including the choice of similarity metric, 
-          geometric transformation, interpolation, and resolutions. To reduce variations across images and enhance comparability for easier image 
-          registration, we preprocessed intensities. Utilizing Elastix and Transformix computer software, we conducted intensity-based registrations, 
-          both rigid and non-rigid, on unsegmented and segmented lung structures. Our approach involved defining a region of interest and excluding 
-          non-essential areas. As a result, our method demonstrated an average mean Target Registration Error (TRE) of 2.08 ± 2.26 mm, highlighting 
-          the effectiveness of our approach and the fine-tuned parameters. Additionally, using VoxelMorph, we achieved an average mean 
-          TRE of 2.18 ± 2.74 mm for the same cases. These findings underscore 
-          the success of our methodology in achieving accurate image registration and its potential impact on supporting medical imaging diagnosis.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration/tree/main/Report" download class="round-button">Code</a>
+        <div class="timeline-list">
+          <article class="timeline-item">
+            <div class="timeline-meta">2024-2025</div>
+            <div>
+              <h3>Master of Computer Science, Bioinformatics and Modeling</h3>
+              <p><a href="https://www.sorbonne-universite.fr/" target="_blank" rel="noreferrer">Sorbonne University</a>, France | Grade: 14.85/20 | Rank: 1st of 8 | Best Thesis Award</p>
+              <p>Thesis: Identification of Tumor Gene Signatures Underlying Fibroblast-Mediated T Cell Exclusion in Lung Cancer Using Spatial Transcriptomics.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">2023</div>
+            <div>
+              <h3>17th EXCITE Summer School on Biomedical Imaging</h3>
+              <p><a href="https://ethz.ch/en.html/" target="_blank" rel="noreferrer">ETH Zurich</a> &amp; <a href="https://www.uzh.ch/" target="_blank" rel="noreferrer">University of Zurich</a>, Switzerland | 4 ECTS</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">2022-2024</div>
+            <div>
+              <h3>Erasmus Mundus Joint Master's in Medical Imaging and Applications</h3>
+              <p><a href="https://www.udg.edu/en/" target="_blank" rel="noreferrer">University of Girona</a>, <a href="https://www.unicas.it/welcome-eng/" target="_blank" rel="noreferrer">University of Cassino</a>, and <a href="https://en.u-bourgogne.fr/" target="_blank" rel="noreferrer">University of Burgundy</a> | Grade: 8.30/10</p>
+              <p>Fully funded by the European Union (EUR 42,000).</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">2018-2022</div>
+            <div>
+              <h3>B.Sc. in Electrical and Electronic Engineering</h3>
+              <p>United International University, Bangladesh | GPA: 3.97/4.00 | Summa Cum Laude | Rank: 1st of 120</p>
+            </div>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
 
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Research experience</h2>
+        </div>
+        <div class="timeline-list">
+          <article class="timeline-item">
+            <div class="timeline-meta">Oct 2025 - Present</div>
+            <div>
+              <h3>Research Engineer - Bioinformatics &amp; AI</h3>
+              <p><a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> - <a href="https://www.psl.eu/" target="_blank" rel="noreferrer">PSL Research University</a>, Paris, France</p>
+              <p>Leading development of multimodal computational pipelines integrating histopathology and spatial transcriptomics to study tumor microenvironment dynamics. Collaborating with clinical partners and preparing manuscripts.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">Feb - Aug 2025</div>
+            <div>
+              <h3>Research Intern - Bioinformatics &amp; Spatial Transcriptomics</h3>
+              <p><a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> / <a href="https://www.sanofi.com/en/" target="_blank" rel="noreferrer">Sanofi</a> collaboration, Paris, France</p>
+              <p>Developed analysis pipelines for Visium V2 and Visium HD spatial transcriptomics data. Identified eight candidate genes potentially mediating CAF-driven T cell exclusion in lung squamous cell carcinoma. Manuscript in preparation.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">Feb - Jul 2024</div>
+            <div>
+              <h3>Research Intern - Computational Pathology</h3>
+              <p><a href="https://www.cnrs.fr/en" target="_blank" rel="noreferrer">National Center for Scientific Research (CNRS)</a>, France</p>
+              <p>Benchmarked fully supervised, weakly supervised, and self-supervised approaches for HRD detection in breast and ovarian cancer whole-slide images. Best model achieved AUC 0.78 on breast cancer and 0.68 on ovarian cancer.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">Aug - Oct 2023</div>
+            <div>
+              <h3>Visiting Researcher - Medical Image Analysis</h3>
+              <p>Diagnostic Image Analysis Group, <a href="https://www.radboudumc.nl/en/" target="_blank" rel="noreferrer">Radboud University Medical Center</a>, Netherlands</p>
+              <p>Developed preprocessing pipelines for k-space undersampling and evaluated deep learning models for real-time MRI reconstruction in interventional radiology.</p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Skin Lesion Classification Challenge Using Transfer Learning</h2>
-        <div class="project-images cadx_tf-image">
-          <img src="images/Cadx_tf.png" alt="Project Image 1">
+      <section class="section" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow">Preprints &amp; Manuscripts</p>
+          <h2>Research output</h2>
         </div>
-        <p>
-          Skin lesions, with the potential to manifest as malignant tumors, pose a significant health risk. 
-          This project addresses the need for early diagnosis by developing a skin lesion classification model using transfer learning. 
-          The pipeline encompasses image preprocessing, data augmentation, model training and validation, ensemble modeling, and prediction. 
-          Leveraging diverse models such as ResNet, ResNext, RegNet, DenseNet, EfficientNet, SwinTransformer, and VisionTransformer underscores 
-          the potential of deep learning in enhancing accuracy and speed for dermatologists and healthcare professionals in skin lesion diagnoses.
-           The project utilizes a mixed dataset from HAM10000, BCN_20000, and MSK Dataset, achieving an 
-          impressive accuracy of 0.91 in binary classification and a kappa score of 0.94 in multiclass classification on test data.
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Deep-Learning" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Deep-Learning" download class="round-button">Code</a>
+        <div class="timeline-list">
+          <article class="timeline-item">
+            <div class="timeline-meta">In preparation</div>
+            <div>
+              <h3>Tumor Gene Signatures Underlying Fibroblast-Mediated T Cell Exclusion in Lung Cancer</h3>
+              <p>Hossain M.I. et al. <a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> / <a href="https://www.sanofi.com/en/" target="_blank" rel="noreferrer">Sanofi</a> collaboration. Manuscript in preparation, 2026.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">ArXiv 2024</div>
+            <div>
+              <h3>Comparative Study of Probabilistic Atlas and Deep Learning for Brain Tissue Segmentation</h3>
+              <p>Hossain M.I., Amin M.Z., et al. <a href="https://arxiv.org/abs/2411.05456" target="_blank" rel="noreferrer">arXiv:2411.05456</a></p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">ArXiv 2025</div>
+            <div>
+              <h3>Deep Learning and Classical Computer Vision in Medical Image Analysis</h3>
+              <p>Tweneboah A.D., Hossain M.I. (co-author), et al. <a href="https://arxiv.org/abs/2502.19258" target="_blank" rel="noreferrer">arXiv:2502.19258</a></p>
+            </div>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
 
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected research projects</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta">Institut Curie / Sanofi | 2025</span>
+              <h3>Spatial Transcriptomics Analysis of Tumor Immune Exclusion</h3>
+              <p>Visium HD pipeline for identifying CAF-mediated T cell exclusion signatures in lung squamous cell carcinoma. Identified 8 candidate genes. Manuscript in preparation.</p>
+            </div>
+            <img src="images/spatial_tx.svg" alt="Spatial transcriptomics project">
+          </article>
 
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Skin Lesion Classification Challenge Using Machine Learning</h2>
-        <div class="project-images cadx-image">
-          <img src="images/CADx.png" alt="Project Image 1">
-        </div>
-        <p>
-          Skin lesions pose a significant risk due to their potential to manifest as malignant tumors. Early diagnosis plays a pivotal 
-          role in effective treatment and improved patient outcomes. Leveraging computer-aided diagnosis systems can revolutionize this
-           process by enhancing accuracy and speed. This project aimed to develop a robust skin lesion classification model using machine
-            learning. The pipeline encompassed image preprocessing, augmentation, feature extraction, feature engineering, and a machine 
-            learning classifier. Employing a mixed dataset comprising HAM10000(ViDIR Group, Medical University of Vienna), the BCN_20000 
-            (Hospital Clínic de Barcelona) and the MSK Dataset (ISBI 2017), the binary classification achieved an impressive accuracy of 0.85, 
-            while the multiclass classification yielded a kappa score of 0.74 on the test data. These promising results underscore the potential of 
-          machine learning in aiding dermatologists and healthcare professionals in accurate and timely skin lesion diagnoses.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Machine-Learning" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Machine-Learning" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta">CNRS | 2024</span>
+              <h3>HRD Detection in Cancer WSIs via Foundation Models &amp; MIL</h3>
+              <p>Benchmarked AB-MIL, CLAM, Trans-MIL, and foundation models for homologous recombination deficiency detection. Achieved AUC 0.78 on breast cancer whole-slide images.</p>
+              <a href="https://arxiv.org/abs/2411.05456" target="_blank" rel="noreferrer">ArXiv preprint</a>
+            </div>
+            <img src="images/hrd_wsi.svg" alt="HRD detection project">
+          </article>
 
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta">Sorbonne University | 2025</span>
+              <h3>Cardiac Structure Segmentation from 2D Echocardiograms</h3>
+              <p>nnU-Net pipeline for automated echocardiogram segmentation. Dice scores: LV endocardium 0.94, LV epicardium 0.91, left atrium 0.93.</p>
+            </div>
+            <img src="images/cardiac_seg.svg" alt="Cardiac segmentation project">
+          </article>
 
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Brain Tissue Segmentation Using Expectation-Maximization (EM)</h2>
-        <div class="project-images brain_em-image">
-          <img src="images/brain_em.png" alt="Project Image 1">
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta">Sorbonne University | 2024</span>
+              <h3>Breast Cancer Subtype Classification via Multi-omics Integration</h3>
+              <p>XGBoost pipeline integrating DNA methylation, CNV, mRNA, and miRNA data for breast cancer subtyping. Balanced multiclass accuracy: 0.90.</p>
+            </div>
+            <img src="images/multiomics.svg" alt="Multi-omics classification project">
+          </article>
         </div>
-        <p>
-          In the field of computer vision and medical applications, image segmentation is crucial for developing Computer-Aided Diagnosis (CAD) 
-          systems, aiding in early disease detection and clinical treatment planning. Brain tissue segmentation, a challenging task, can be 
-          effectively performed using the unsupervised cluster-based Expectation-Maximization (EM) algorithm combined with a Gaussian Mixture 
-          Model (GMM) on MRI data. This approach, encompassing White Matter (WM), Gray Matter (GM), and Cerebrospinal Fluid (CSF) segmentation, 
-          employs a Gaussian Probability Distribution for soft assignment, providing probabilities to different clusters within the feature 
-          space. Essential pre-processing techniques such as bias field correction and skull stripping enhance segmentation outcomes. The 
-          obtained Dice score metrics of (0.86, 0.81, 0.86) for mean and (0.03, 0.03, 0.03) for standard deviation underscore the algorithm's 
-          accuracy and consistency, positioning it as a valuable tool in CAD systems for robust disease detection and early clinical intervention.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/BraTSeg-Expectation-Maximization/tree/main/Report" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/BraTSeg-Expectation-Maximization" download class="round-button">Code</a>
+        <div class="section-action">
+          <a class="button button-secondary" href="projects.html">View all projects</a>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Image Registration and ATLAS Based Brain Tissue Segmentation</h2>
-        <div class="project-images brain_atlas-image">
-          <img src="images/brain_atlas.png" alt="Project Image 1">
-        </div>
-        <p>
-          Atlas-based segmentation, a fundamental technique in medical imaging, enhances image segmentation precision by leveraging knowledge 
-          from annotated reference images or atlases. This project extends beyond segmentation to investigate the impact of image registration 
-          techniques, comparing affine (rigid) and bspline (non-rigid) methods. Results indicate that bspline registration outperforms affine
-           registration, particularly in terms of mutual information. Integrating this refined alignment into segmentation algorithms, such as 
-           the Expectation-Maximization method, yields an overall enhanced performance. The study underscores the significance of atlas-based 
-           segmentation coupled with advanced image registration techniques, highlighting the superior efficacy of bspline (non-rigid) 
-           registration for improved brain tissue segmentation.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/BraTSeg-Registration-ATLAS/tree/main/Report" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/BraTSeg-Registration-ATLAS" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Breast Mass Segmentation and Detection Using Machine Learning</h2>
-        <div class="project-images breast-image">
-          <img src="images/breast_mass.png" alt="Project Image 1">
-        </div>
-        <p>
-          Breast cancer stands as the most prevalent form of cancer affecting women worldwide and remains the leading cause of cancer-related 
-          mortality. Early detection plays a pivotal role in reducing mortality rates and expanding treatment options. This project focuses on 
-          the development of an advanced system for the early detection and segmentation of breast masses in mammograms, leveraging a computer-
-          aided diagnosis (CAD) approach. Mammography, recognized as a highly efficient primary screening tool, is crucial for detecting 
-          features such as masses and microcalcifications indicative of breast cancer. However, identifying irregularly shaped masses with 
-          low contrast poses a significant challenge. To address this, our proposed approach employs a five-step process for mass detection 
-          and segmentation. These steps include pre-processing, multi-scale morphological sifting for region candidate generation, mean-shift 
-          filtering, k-means clustering, and post-processing. To enhance accuracy, we integrated the ucasML tool for obtaining classification
-           scores, incorporating a feature extraction process and detailed evaluation methods. The classifier, trained on the extracted features,
-            demonstrated impressive results with an accuracy of 96.96%, specificity of 95.55%, and sensitivity of 95.53%.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Breast-Mass-Detection-Machine-Learning" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Breast-Mass-Detection-Machine-Learning" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Automated Skin Lesion Classification: A Comprehensive Analysis of Transfer Learning and Machine Learning Techniques</h2>
-        <div class="project-images skin-image">
-          <img src="images/skin.png" alt="Project Image 1">
-        </div>
-        <p>
-            Skin cancer is a prevalent and concerning health issue, necessitating advanced diagnostic tools for early detection. 
-            Computer-aided diagnosis (CAD) systems, powered by machine learning and deep learning techniques, present a promising avenue to 
-            enhance the accuracy of skin lesion detection in medical images. In this project, we aim to contribute to the field by developing 
-            an efficient CAD system capable of assisting medical professionals in diagnosing skin cancer. This project pioneers the integration
-             of machine learning and deep learning techniques for the critical task of skin lesion detection in medical images, with a primary
-            focus on advancing computer-aided diagnosis (CAD) systems for precise skin cancer diagnosis. Employing a two-step hierarchal 
-            classification pipeline discerning "benign vs. others" and "melanoma vs. seborrheic keratosis," our hybrid model, merging Xception
-            and Random Forest, achieves an impressive Balanced Multiclass Accuracy (BMA) score of 79%. This surpasses the performance of 
-            established architectures like VGG16, InceptionResNetv2, and DenseNet201. Beyond showcasing the potential for machine learning 
-            in elevating skin cancer diagnostic accuracy, this research underscores the broader applicability of CAD systems in addressing
-            crucial challenges in medical image analysis, particularly in the realm of skin cancer detection.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Transfer-Learning/tree/main/Report" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Transfer-Learning" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Classification Challenge: 
-          Alzheimer’s Disease Classification Using MRIs and Gene Expression Data
-          </h2>
-        <div class="project-images classification-image">
-          <img src="images/classification.png" alt="Project Image 1">
-        </div>
-        <p>
-          This study addresses Alzheimer's Disease (AD) classification using MRI and gene expression data through three binary classification
-           problems: AD vs. Control (CTL), AD vs. Mild Cognitive Impairment (MCI), and MCI vs. CTL. Employing feature engineering and machine 
-           learning, we developed a classification algorithm for each problem. The Boruta feature selection algorithm combined with Quadratic
-            Discriminative Analysis (QDA) consistently outperformed other approaches, yielding the highest AUC (0.963) and MCC (0.927) for AD 
-            vs. CTL, AUC (0.831) and MCC (0.663) for AD vs. MCI, and AUC (0.876) and MCC (0.755) for MCI vs. CTL. These findings contribute to
-             enhancing accuracy in Alzheimer's Disease classification and underscore the importance of tailored feature selection and classifier
-          combination
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Alzheimer-Classification-Challenge/tree/main/Report" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Alzheimer-Classification-Challenge" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Implementation of Regularized General Eigenvalue Classifier (ReGEC) using R programming language
-          </h2>
-        <div class="project-images regec-image">
-          <img src="images/regec.png" alt="Project Image 1">
-        </div>
-        <p>
-          This project presents the implementation and evaluation of the Regularized General Eigenvalue Classifier (ReGEC) using the R programming 
-          language. Employing the generalized eigenvalue problem with regularization, ReGEC demonstrates versatility in computer vision, speech 
-          recognition, and bioinformatics. Utilizing four datasets—Cleveland Heart, Pima Indians, Breast Cancer, and German—the study applies Linear 
-          Discriminant Analysis (LDA) for feature extraction. Results show a classification accuracy of 86.67% and 77.91% for linear and Gaussian 
-          kernels, respectively. Performance metrics encompassing 
-          classification accuracy and execution time highlight ReGEC's efficacy in classification tasks, emphasizing its successful implementation in R.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Regularized-General-Eigenvalue-Classifier/tree/main/Report" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Regularized-General-Eigenvalue-Classifier" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>EasyHealth: Healthcare Information Management System (MIS)</h2>
-        <div class="project-images easyhealth-image">
-          <img src="images/easyhealth.png" alt="Project Image 1">
-        </div>
-        <p>
-          EasyHealth is a Healthcare Information Management System (HIMS) developed using Java, JavaScript, HTML, CSS, and MySQL. 
-          The project aimed to create an efficient, robust, and user-friendly platform for managing healthcare information. The system 
-          incorporates features such as online appointment booking, report generation based on examinations, and specialized disease 
-          information for both doctors and patients. Additionally, 
-          EasyHealth includes medical imaging analysis, providing a comprehensive solution for streamlined healthcare information management.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/EasyHealth-HIMS" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/EasyHealth-HIMS" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="project-item">
-      <div class="project-details">
-        <h2>Design an Inverse Kinematic Controller</h2>
-        <div class="project-images robotics-image">
-          <img src="images/robotics.png" alt="Project Image 1">
-        </div>
-        <p>
-          This project details the design and implementation of an Inverse Kinematic Controller for the JACO2 robot, focusing on achieving precise 
-          end-effector positioning in three distinct scenarios. The primary objective is to control the robot to follow a vertical line trajectory 
-          along the z-axis within a 2-second duration. Additionally, the controller guides the robot through a position-only control scenario,
-           traversing a vertical square path along the yz-axis. Each side of the square is executed with a 2-second trajectory, including 500 ms 
-           pauses at corners and a 2-second hold at the initial end-effector position upon completion. The third scenario involves both position
-            and orientation control, where the end-effector follows the square trajectory while maintaining a constant orientation. The MATLAB-based 
-            implementation employs a 1 ms sampling time, quaternions for orientation feedback, and visualizes the trajectory, joint positions, and
-             velocities. 
-          Successful execution of the specified scenarios demonstrates the efficacy of the proposed Inverse Kinematic Controller.
-        </p>
-        <div class="buttons">
-          <a href="https://github.com/imran-maia/Inverse-Kinematic-Controller-Design" download class="round-button">Report</a>
-          <a href="https://github.com/imran-maia/Inverse-Kinematic-Controller-Design" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
+    <footer class="site-footer">
+      <p>Copyright (c) 2026 Mohammad Imran Hossain</p>
+    </footer>
   </div>
 
-  <!-- Class for Presentaiton Section-->
-  <div id="presentation" class="project">
-    <h1>PRESENTATION</h1>
-
-    <div class="presentation-item">
-      <div class="presentation-details">
-        <h2>A Comparative Study of Automatic Brain Tumor Segmentation Techniques from MRI</h2>
-        <div class="presentation-images brain_em-image">
-        </div>
-        <p>
-          Magnetic Resonance Imaging (MRI) images are widely used to identify brain tumors such as meningioma and glioma. Gliomas are the most 
-          life-threatening brain tumors because of their rapid growth and effect on the function of the brain. However, early detection and 
-          appropriate diagnosis of the brain tumor can reduce the chance of death [1]. Manual segmentation requires an expert and more time to
-           identify and classify brain tumors even sometimes it provides an inaccurate result. Brain tumor segmentation from MRI images using 
-           computer-aided diagnosis is a fast, automatic, and advanced technique, but it is also a challenging task due to the non-uniform shape 
-           and size, and the spread boundaries of tumors within the surrounding area. This article aims to make a comparative study between the 
-          traditional segmentation techniques and segmentation using deep learning approaches as well as find out their positive aspects and
-           limitations.
-        </p>
-        <div class="buttons">
-          <a href="path_to_your_report_file.pdf" download class="round-button">Report</a>
-          <a href="path_to_your_code_file.zip" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="presentation-item">
-      <div class="presentation-details">
-        <h2>Detection of Parkinson’s Disease Using Automated Tunable Q Wavelet Transform Technique with EEG Signals
-        </h2>
-        <div class="presentation-images dsp-image">
-          <img src="images/dsp.png" alt="presentation Image 1">
-        </div>
-        <p>
-          Parkinson’s disease (PD) is a brain disorder that causes unintended or uncontrollable movements, such as shaking, stiffness,
-           and difficulty with balance and coordination. Electroencephalogram (EEG) signals may faithfully represent the changes that occur
-            during PD in the brain. Therefore, EEG signals are required to decompose into multiple sub-bands (SBs) to get detailed and 
-            representative information from it. Hence, An automated tunable Q wavelet transform (A-TQWT) is proposed for automatic decomposition.
-             A-TQWT extracts representative SBs for analysis and provides better reconstruction for the synthesis of EEG signals by 
-             automatically selecting the tuning parameters. Five features are extracted from the SBs and classified different machine
-              learning techniques. The proposed method yielded an accuracy of 96.13% and 97.65% while the area under the curve of 97% and
-               98.56% for the classification of HC vs PD (OFF medication) and HC vs PD (ON medication) using least square support vector
-                machine, respectively.
-
-        </p>
-        <div class="buttons">
-          <a href="path_to_your_report_file.pdf" download class="round-button">Report</a>
-          <a href="path_to_your_code_file.zip" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="presentation-item">
-      <div class="presentation-details">
-        <h2>Comparative Analysis of Eight Direction Sobel Edge Detection Algorithm for Brain Tumor MRI Images</h2>
-        <div class="presentation-images ip-image">
-          <img src="images/ip.png" alt="presentation Image 1">
-        </div>
-        <p>
-          Brain
-          Tumors are the leading cause of cancer death in
-          children They are caused by the abnormal and
-          uncontrolled growth of cells inside the brain or spinal
-          canal Classification of brain tumors using machine
-          learning technology is very relevant for radiologists to
-          confirm their analysis more effectively and quickly
-          Segmentation algorithm identified for detecting the tumor
-          from the MRI brain scans need to detect shapeless tumor
-          growth perfectly Sobel edge detection is one of the
-          widely used edge detection techniques in which only
-          information along horizontal and vertical directions are
-          considered In this research, Sobel algorithm with 8
-          directional template is implemented for improving the
-          detection of edges in brain tumor MRI images The
-          proposed algorithm is compared with other traditional
-          edge detection algorithms The performance of the
-          proposed algorithm is analyzed in terms of MSE, RMSE,
-          Entropy, SNR and PSNR Analysis shows that 8 Sobel is
-          comparatively the most suitable technique for analyzing
-          brain tumor MRI images Active contouring segmentation
-          algorithm is applied on the edge detected images to
-          verify the classification accuracy of segmented tumor.
-
-        </p>
-        <div class="buttons">
-          <a href="path_to_your_report_file.pdf" download class="round-button">Report</a>
-          <a href="path_to_your_code_file.zip" download class="round-button">Code</a>
-        </div>
-      </div>
-    </div>
-    
-
-
-
-  </div>
-  
-
-  
- </body</html>
+  <button class="go-to-top" type="button" aria-label="Go to top">Up</button>
+  <script src="script.js"></script>
+</body>
+</html>

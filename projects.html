@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Research and academic projects of Mohammad Imran Hossain in computational pathology, multimodal AI, medical imaging, and AI for healthcare."
+  >
+  <title>Projects | Mohammad Imran Hossain</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="site-brand" href="index.html">Mohammad Imran Hossain</a>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="Primary">
+          <a href="index.html#about">About</a>
+          <a href="index.html#research">Research</a>
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#publications">Publications</a>
+          <a class="is-active" href="projects.html">Projects</a>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3.25V1.5M12 22.5v-1.75M5.81 5.81 4.57 4.57M19.43 19.43l-1.24-1.24M3.25 12H1.5M22.5 12h-1.75M5.81 18.19l-1.24 1.24M19.43 4.57l-1.24 1.24M12 17.25A5.25 5.25 0 1 0 12 6.75a5.25 5.25 0 0 0 0 10.5Z"/>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.1 14.2A8.6 8.6 0 0 1 9.8 3.9a8.9 8.9 0 1 0 10.3 10.3Z"/>
+            </svg>
+          </button>
+        </nav>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-intro">
+        <p class="eyebrow">Projects</p>
+        <h1>Research and academic projects</h1>
+        <p class="page-intro__text">
+          This page separates current research-level work from earlier academic coursework, helping supervisors and
+          collaborators quickly assess the projects most relevant to my PhD trajectory in AI for healthcare.
+        </p>
+      </section>
+
+      <section class="section projects-archive">
+        <div class="section-heading">
+          <p class="eyebrow">Tier 1</p>
+          <h2>Research projects</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta"><a href="https://institut-curie.org/institut-curie" target="_blank" rel="noreferrer">Institut Curie</a> / <a href="https://www.sanofi.com/en/" target="_blank" rel="noreferrer">Sanofi</a> | 2025</span>
+              <h3>Spatial Transcriptomics Analysis of Tumor Immune Exclusion</h3>
+              <p>Visium HD pipeline for identifying CAF-mediated T cell exclusion signatures in lung squamous cell carcinoma. Identified 8 candidate genes. Manuscript in preparation.</p>
+            </div>
+            <img src="images/spatial_tx.svg" alt="Spatial transcriptomics project">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta"><a href="https://www.cnrs.fr/en" target="_blank" rel="noreferrer">CNRS</a> | 2024</span>
+              <h3>HRD Detection in Cancer WSIs via Foundation Models &amp; MIL</h3>
+              <p>Benchmarked AB-MIL, CLAM, Trans-MIL, and foundation models for homologous recombination deficiency detection. Achieved AUC 0.78 on breast cancer whole-slide images.</p>
+              <a href="https://arxiv.org/abs/2411.05456" target="_blank" rel="noreferrer">ArXiv preprint</a>
+            </div>
+            <img src="images/hrd_wsi.svg" alt="HRD detection project">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta"><a href="https://www.sorbonne-universite.fr/" target="_blank" rel="noreferrer">Sorbonne University</a> | 2025</span>
+              <h3>Cardiac Structure Segmentation from 2D Echocardiograms</h3>
+              <p>nnU-Net pipeline for automated echocardiogram segmentation. Dice scores: LV endocardium 0.94, LV epicardium 0.91, left atrium 0.93.</p>
+            </div>
+            <img src="images/cardiac_seg.svg" alt="Cardiac segmentation project">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <span class="project-meta"><a href="https://www.sorbonne-universite.fr/" target="_blank" rel="noreferrer">Sorbonne University</a> | 2024</span>
+              <h3>Breast Cancer Subtype Classification via Multi-omics Integration</h3>
+              <p>XGBoost pipeline integrating DNA methylation, CNV, mRNA, and miRNA data for breast cancer subtyping. Balanced multiclass accuracy: 0.90.</p>
+            </div>
+            <img src="images/multiomics.svg" alt="Multi-omics classification project">
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Tier 2</p>
+          <h2>Academic course projects</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Automatic Brain Tissue Segmentation from MRI</h3>
+              <p>Comparative study of statistical and deep learning approaches for MRI brain tissue segmentation, including U-Net, LinkNet, and nnU-Net.</p>
+              <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/bratseg_challenge.png" alt="Automatic brain tissue segmentation from MRI project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Lung CT Image Registration</h3>
+              <p>Comparative evaluation of intensity-based and deep learning methods for inspiratory and expiratory lung CT registration using COPD image data.</p>
+              <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/lung_ct_reg.png" alt="Lung CT image registration project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Skin Lesion Classification Challenge</h3>
+              <p>Transfer learning and ensemble modeling for automated skin lesion classification in a challenge setting.</p>
+              <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Machine-Learning" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/Cadx_tf.png" alt="Skin lesion classification challenge project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Brain Tissue Segmentation Using Expectation-Maximization</h3>
+              <p>Unsupervised cluster-based segmentation of MRI brain tissues using EM and Gaussian mixture modeling, with preprocessing for improved robustness.</p>
+              <a href="https://github.com/imran-maia/BraTSeg-Expectation-Maximization" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/brain_em.png" alt="Brain tissue segmentation using expectation-maximization preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Image Registration and ATLAS Based Brain Tissue Segmentation</h3>
+              <p>Atlas-based brain tissue segmentation with analysis of affine and bspline registration strategies for improved alignment and segmentation quality.</p>
+              <a href="https://github.com/imran-maia/BraTSeg-Registration-ATLAS" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/brain_atlas.png" alt="Atlas based brain tissue segmentation project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Breast Mass Segmentation and Detection</h3>
+              <p>Machine learning workflow for breast mass detection, segmentation, and classification from mammographic images.</p>
+              <a href="https://github.com/imran-maia/Breast-Mass-Detection-Machine-Learning" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/breast_mass.png" alt="Breast mass segmentation and detection project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Automated Skin Lesion Classification</h3>
+              <p>Comprehensive analysis of transfer learning and machine learning techniques for clinically relevant skin lesion diagnosis.</p>
+              <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Transfer-Learning" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/skin.png" alt="Automated skin lesion classification project preview">
+          </article>
+
+          <article class="project-item">
+            <div class="project-text">
+              <h3>Alzheimer's Disease Classification</h3>
+              <p>Classification of Alzheimer's disease, mild cognitive impairment, and control groups using MRI and gene expression data with feature selection.</p>
+              <a href="https://github.com/imran-maia/Alzheimer-Classification-Challenge" target="_blank" rel="noreferrer">View project</a>
+            </div>
+            <img src="images/classification.png" alt="Alzheimer's disease classification project preview">
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright (c) 2026 Mohammad Imran Hossain</p>
+    </footer>
+  </div>
+
+  <button class="go-to-top" type="button" aria-label="Go to top">Up</button>
+  <script src="script.js"></script>
+</body>
+</html>

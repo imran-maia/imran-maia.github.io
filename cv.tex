@@ -1,0 +1,114 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,margin=1.55cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{tabularx}
+
+\definecolor{Accent}{HTML}{1E4A3A}
+\definecolor{Muted}{HTML}{4B5B53}
+
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.2em,itemsep=0.2em,topsep=0.25em}
+\titleformat{\section}{\large\bfseries\color{Accent}}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{0.75em}{0.45em}
+
+\begin{document}
+
+{\LARGE\bfseries Mohammad Imran Hossain}\\[0.15em]
+{\color{Accent}\large PhD Applicant in AI for Healthcare}\\[0.35em]
+Paris Area, France \textbar\ \href{mailto:hossainimran.maia@gmail.com}{hossainimran.maia@gmail.com} \textbar\ 
+\href{https://github.com/imran-maia}{github.com/imran-maia} \textbar\ 
+\href{https://www.linkedin.com/in/mohammad-imran-hossain-23721812a/}{linkedin.com/in/mohammad-imran-hossain-23721812a}
+
+\vspace{0.5em}
+Research engineer with training across computational pathology, multimodal AI, and medical image analysis. Current work at Institut Curie focuses on integrating histopathology and spatial transcriptomics to study the tumor microenvironment. Seeking PhD positions for the 2026/2027 intake in multimodal medical AI, computational pathology, and medical image analysis.
+
+\section*{Research Interests}
+Computational pathology; multimodal AI for healthcare; medical image analysis; spatial transcriptomics; weakly supervised learning; self-supervised learning; segmentation; registration; image reconstruction; AI-assisted diagnosis.
+
+\section*{Research Experience}
+\textbf{Research Engineer -- Bioinformatics \& AI} \hfill \textit{Oct 2025 -- Present}\\
+Institut Curie -- PSL Research University, Paris, France
+\begin{itemize}
+  \item Developing multimodal computational pipelines integrating histopathology and spatial transcriptomics to study tumor microenvironment dynamics.
+  \item Contributing to clinically grounded AI workflows for cancer biology with a focus on reproducible analysis and manuscript preparation.
+\end{itemize}
+
+\textbf{Research Intern -- Bioinformatics \& Spatial Transcriptomics} \hfill \textit{Feb 2025 -- Aug 2025}\\
+Institut Curie / Sanofi collaboration, Paris, France
+\begin{itemize}
+  \item Built analysis pipelines for Visium V2 and Visium HD spatial transcriptomics data.
+  \item Identified eight candidate genes potentially mediating CAF-driven T-cell exclusion in lung squamous cell carcinoma.
+  \item Contributed to ongoing manuscript preparation.
+\end{itemize}
+
+\textbf{Research Intern -- Computational Pathology} \hfill \textit{Feb 2024 -- Jul 2024}\\
+National Center for Scientific Research (CNRS), France
+\begin{itemize}
+  \item Benchmarked fully supervised, weakly supervised, and self-supervised methods for homologous recombination deficiency detection in breast and ovarian cancer whole-slide images.
+  \item Evaluated attention-based multiple instance learning and foundation-model-based pipelines.
+  \item Best performance reached AUC 0.78 on breast cancer and 0.68 on ovarian cancer.
+\end{itemize}
+
+\textbf{Visiting Researcher -- Medical Image Analysis} \hfill \textit{Aug 2023 -- Oct 2023}\\
+Diagnostic Image Analysis Group, Radboud University Medical Center, Netherlands
+\begin{itemize}
+  \item Developed preprocessing pipelines for k-space undersampling and evaluated deep learning models for real-time MRI reconstruction in interventional radiology.
+\end{itemize}
+
+\section*{Education}
+\textbf{Master of Computer Science, Bioinformatics and Modeling} \hfill \textit{2024 -- 2025}\\
+Sorbonne University, France\\
+Grade: 14.85/20 \textbar\ Rank: 1st of 8 \textbar\ Best Thesis Award\\
+Thesis: \textit{Identification of Tumor Gene Signatures Underlying Fibroblast-Mediated T Cell Exclusion in Lung Cancer Using Spatial Transcriptomics.}
+
+\textbf{Erasmus Mundus Joint Master's in Medical Imaging and Applications} \hfill \textit{2022 -- 2024}\\
+University of Girona, University of Cassino, University of Burgundy\\
+Grade: 8.30/10 \textbar\ Fully funded by the European Union (EUR 42,000)
+
+\textbf{17th EXCITE Summer School on Biomedical Imaging} \hfill \textit{2023}\\
+ETH Zurich and University of Zurich, Switzerland \textbar\ 4 ECTS
+
+\textbf{B.Sc. in Electrical and Electronic Engineering} \hfill \textit{2018 -- 2022}\\
+United International University, Bangladesh\\
+GPA: 3.97/4.00 \textbar\ Summa Cum Laude \textbar\ Rank: 1st of 120
+
+\section*{Preprints \& Manuscripts}
+\textbf{Tumor Gene Signatures Underlying Fibroblast-Mediated T Cell Exclusion in Lung Cancer} \hfill \textit{In preparation}\\
+Hossain M.I. et al. Institut Curie / Sanofi collaboration. Manuscript in preparation, 2026.
+
+\textbf{Comparative Study of Probabilistic Atlas and Deep Learning for Brain Tissue Segmentation} \hfill \textit{ArXiv 2024}\\
+Hossain M.I., Amin M.Z., et al. \href{https://arxiv.org/abs/2411.05456}{arXiv:2411.05456}
+
+\textbf{Deep Learning and Classical Computer Vision in Medical Image Analysis} \hfill \textit{ArXiv 2025}\\
+Tweneboah A.D., Hossain M.I. (co-author), et al. \href{https://arxiv.org/abs/2502.19258}{arXiv:2502.19258}
+
+\section*{Selected Projects}
+\textbf{Spatial Transcriptomics Analysis of Tumor Immune Exclusion} \hfill \textit{Institut Curie / Sanofi, 2025}\\
+Visium HD pipeline for identifying CAF-mediated T-cell exclusion signatures in lung squamous cell carcinoma.
+
+\textbf{HRD Detection in Cancer WSIs via Foundation Models \& MIL} \hfill \textit{CNRS, 2024}\\
+Benchmarked AB-MIL, CLAM, Trans-MIL, and foundation models for homologous recombination deficiency detection.
+
+\textbf{Cardiac Structure Segmentation from 2D Echocardiograms} \hfill \textit{Sorbonne, 2025}\\
+nnU-Net pipeline for echocardiogram segmentation. Dice scores: LV endocardium 0.94, LV epicardium 0.91, left atrium 0.93.
+
+\textbf{Breast Cancer Subtype Classification via Multi-omics Integration} \hfill \textit{Sorbonne, 2024}\\
+XGBoost pipeline integrating DNA methylation, CNV, mRNA, and miRNA data for subtype classification. Balanced multiclass accuracy: 0.90.
+
+\section*{Awards \& Distinctions}
+\begin{itemize}
+  \item Best Thesis Award, Sorbonne University.
+  \item Ranked 2nd in the MAIA Brain Tissue Segmentation Challenge, University of Girona.
+  \item Erasmus Mundus Scholarship awarded by the European Union.
+  \item Summa Cum Laude, United International University.
+\end{itemize}
+
+\end{document}
