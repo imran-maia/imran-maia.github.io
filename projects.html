@@ -3,11 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Mohammad Imran Hossain">
   <meta
     name="description"
-    content="Research and academic projects of Mohammad Imran Hossain in computational pathology, multimodal AI, medical imaging, and AI for healthcare."
+    content="Research and academic projects of Mohammad Imran Hossain in computational pathology, multimodal AI, spatial transcriptomics, medical image analysis, and AI for healthcare."
+  >
+  <meta
+    name="keywords"
+    content="Mohammad Imran Hossain projects, computational pathology projects, medical image analysis projects, multimodal AI healthcare projects, spatial transcriptomics projects"
   >
   <title>Projects | Mohammad Imran Hossain</title>
+  <link rel="canonical" href="https://imran-maia.github.io/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mohammad Imran Hossain">
+  <meta property="og:title" content="Projects | Mohammad Imran Hossain">
+  <meta property="og:description" content="Research and academic projects of Mohammad Imran Hossain in AI for healthcare, computational pathology, multimodal AI, and medical image analysis.">
+  <meta property="og:url" content="https://imran-maia.github.io/projects.html">
+  <meta property="og:image" content="https://imran-maia.github.io/images/hrd_wsi.svg">
+  <meta property="og:image:alt" content="Selected research projects of Mohammad Imran Hossain">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Projects | Mohammad Imran Hossain">
+  <meta name="twitter:description" content="Research and academic projects of Mohammad Imran Hossain in AI for healthcare, computational pathology, multimodal AI, and medical image analysis.">
+  <meta name="twitter:image" content="https://imran-maia.github.io/images/hrd_wsi.svg">
+  <link rel="me" href="https://scholar.google.fr/citations?user=ypmKWxkAAAAJ&hl=fr">
+  <link rel="me" href="https://www.linkedin.com/in/mohammad-imran-hossain-23721812a/">
+  <link rel="me" href="https://github.com/imran-maia">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -15,6 +36,50 @@
     rel="stylesheet"
   >
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "CollectionPage",
+          "name": "Projects | Mohammad Imran Hossain",
+          "url": "https://imran-maia.github.io/projects.html",
+          "description": "Research and academic projects of Mohammad Imran Hossain in AI for healthcare, computational pathology, multimodal AI, and medical image analysis.",
+          "author": {
+            "@type": "Person",
+            "name": "Mohammad Imran Hossain",
+            "url": "https://imran-maia.github.io/"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Research projects",
+          "itemListElement": [
+            {
+              "@type": "CreativeWork",
+              "position": 1,
+              "name": "Spatial Transcriptomics Analysis of Tumor Immune Exclusion"
+            },
+            {
+              "@type": "CreativeWork",
+              "position": 2,
+              "name": "HRD Detection in Cancer WSIs via Foundation Models and MIL"
+            },
+            {
+              "@type": "CreativeWork",
+              "position": 3,
+              "name": "Cardiac Structure Segmentation from 2D Echocardiograms"
+            },
+            {
+              "@type": "CreativeWork",
+              "position": 4,
+              "name": "Breast Cancer Subtype Classification via Multi-omics Integration"
+            }
+          ]
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
   <div class="page-shell">
@@ -65,7 +130,7 @@
               <h3>Spatial Transcriptomics Analysis of Tumor Immune Exclusion</h3>
               <p>Visium HD pipeline for identifying CAF-mediated T cell exclusion signatures in lung squamous cell carcinoma. Identified 8 candidate genes. Manuscript in preparation.</p>
             </div>
-            <img src="images/spatial_tx.svg" alt="Spatial transcriptomics project">
+            <img src="images/spatial_tx.svg" alt="Scientific illustration for spatial transcriptomics analysis of tumor immune exclusion">
           </article>
 
           <article class="project-item">
@@ -75,7 +140,7 @@
               <p>Benchmarked AB-MIL, CLAM, Trans-MIL, and foundation models for homologous recombination deficiency detection. Achieved AUC 0.78 on breast cancer whole-slide images.</p>
               <a href="https://arxiv.org/abs/2411.05456" target="_blank" rel="noreferrer">ArXiv preprint</a>
             </div>
-            <img src="images/hrd_wsi.svg" alt="HRD detection project">
+            <img src="images/hrd_wsi.svg" alt="Scientific illustration for homologous recombination deficiency detection in pathology whole-slide images">
           </article>
 
           <article class="project-item">
@@ -84,7 +149,7 @@
               <h3>Cardiac Structure Segmentation from 2D Echocardiograms</h3>
               <p>nnU-Net pipeline for automated echocardiogram segmentation. Dice scores: LV endocardium 0.94, LV epicardium 0.91, left atrium 0.93.</p>
             </div>
-            <img src="images/cardiac_seg.svg" alt="Cardiac segmentation project">
+            <img src="images/cardiac_seg.svg" alt="Scientific illustration for cardiac structure segmentation from 2D echocardiograms">
           </article>
 
           <article class="project-item">
@@ -93,7 +158,7 @@
               <h3>Breast Cancer Subtype Classification via Multi-omics Integration</h3>
               <p>XGBoost pipeline integrating DNA methylation, CNV, mRNA, and miRNA data for breast cancer subtyping. Balanced multiclass accuracy: 0.90.</p>
             </div>
-            <img src="images/multiomics.svg" alt="Multi-omics classification project">
+            <img src="images/multiomics.svg" alt="Scientific illustration for breast cancer subtype classification via multi-omics integration">
           </article>
         </div>
       </section>
@@ -110,7 +175,7 @@
               <p>Comparative study of statistical and deep learning approaches for MRI brain tissue segmentation, including U-Net, LinkNet, and nnU-Net.</p>
               <a href="https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/bratseg_challenge.png" alt="Automatic brain tissue segmentation from MRI project preview">
+            <img src="images/bratseg_challenge.png" alt="Brain tissue segmentation from MRI project figure comparing probabilistic atlas and deep learning approaches">
           </article>
 
           <article class="project-item">
@@ -119,7 +184,7 @@
               <p>Comparative evaluation of intensity-based and deep learning methods for inspiratory and expiratory lung CT registration using COPD image data.</p>
               <a href="https://github.com/imran-maia/COPDGen-Lung-CT-Registration" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/lung_ct_reg.png" alt="Lung CT image registration project preview">
+            <img src="images/lung_ct_reg.png" alt="Lung CT image registration project figure for intensity-based and deep learning registration methods">
           </article>
 
           <article class="project-item">
@@ -128,7 +193,7 @@
               <p>Transfer learning and ensemble modeling for automated skin lesion classification in a challenge setting.</p>
               <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Machine-Learning" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/Cadx_tf.png" alt="Skin lesion classification challenge project preview">
+            <img src="images/Cadx_tf.png" alt="Skin lesion classification challenge figure showing transfer learning based dermatology image analysis">
           </article>
 
           <article class="project-item">
@@ -137,7 +202,7 @@
               <p>Unsupervised cluster-based segmentation of MRI brain tissues using EM and Gaussian mixture modeling, with preprocessing for improved robustness.</p>
               <a href="https://github.com/imran-maia/BraTSeg-Expectation-Maximization" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/brain_em.png" alt="Brain tissue segmentation using expectation-maximization preview">
+            <img src="images/brain_em.png" alt="Brain tissue segmentation figure using expectation-maximization and Gaussian mixture modeling">
           </article>
 
           <article class="project-item">
@@ -146,7 +211,7 @@
               <p>Atlas-based brain tissue segmentation with analysis of affine and bspline registration strategies for improved alignment and segmentation quality.</p>
               <a href="https://github.com/imran-maia/BraTSeg-Registration-ATLAS" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/brain_atlas.png" alt="Atlas based brain tissue segmentation project preview">
+            <img src="images/brain_atlas.png" alt="Atlas-based brain tissue segmentation project figure with image registration and tissue labeling">
           </article>
 
           <article class="project-item">
@@ -155,7 +220,7 @@
               <p>Machine learning workflow for breast mass detection, segmentation, and classification from mammographic images.</p>
               <a href="https://github.com/imran-maia/Breast-Mass-Detection-Machine-Learning" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/breast_mass.png" alt="Breast mass segmentation and detection project preview">
+            <img src="images/breast_mass.png" alt="Breast mass segmentation and detection project figure for mammography analysis">
           </article>
 
           <article class="project-item">
@@ -164,7 +229,7 @@
               <p>Comprehensive analysis of transfer learning and machine learning techniques for clinically relevant skin lesion diagnosis.</p>
               <a href="https://github.com/imran-maia/Skin-Lesion-Classification-Transfer-Learning" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/skin.png" alt="Automated skin lesion classification project preview">
+            <img src="images/skin.png" alt="Automated skin lesion classification figure using transfer learning and machine learning techniques">
           </article>
 
           <article class="project-item">
@@ -173,7 +238,7 @@
               <p>Classification of Alzheimer's disease, mild cognitive impairment, and control groups using MRI and gene expression data with feature selection.</p>
               <a href="https://github.com/imran-maia/Alzheimer-Classification-Challenge" target="_blank" rel="noreferrer">View project</a>
             </div>
-            <img src="images/classification.png" alt="Alzheimer's disease classification project preview">
+            <img src="images/classification.png" alt="Alzheimer's disease classification figure using MRI and gene expression data">
           </article>
         </div>
       </section>
