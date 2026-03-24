@@ -230,6 +230,10 @@ body.theme-dark .theme-icon-moon {
   font-size: 1.04rem;
 }
 
+.hero-summary + .hero-summary {
+  margin-top: 16px;
+}
+
 .search-focus {
   max-width: 42rem;
   margin-top: 22px;
