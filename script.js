@@ -7,6 +7,8 @@ const currentPath = window.location.pathname.split("/").pop() || "index.html";
 const revealItems = document.querySelectorAll(".hero, .section, .page-intro, .site-footer");
 const themeToggle = document.querySelector(".theme-toggle");
 const savedTheme = window.localStorage.getItem("site-theme");
+const newsItems = document.querySelectorAll("[data-news-page]");
+const newsPageButtons = document.querySelectorAll("[data-news-target]");
 
 const applyTheme = (theme) => {
   document.body.classList.toggle("theme-dark", theme === "dark");
@@ -111,6 +113,34 @@ window.addEventListener("scroll", () => {
 if (topButton) {
   topButton.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+const setNewsPage = (page) => {
+  if (!newsItems.length || !newsPageButtons.length) {
+    return;
+  }
+
+  newsItems.forEach((item) => {
+    item.hidden = item.dataset.newsPage !== page;
+  });
+
+  newsPageButtons.forEach((button) => {
+    const isActive = button.dataset.newsTarget === page;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
+};
+
+if (newsItems.length && newsPageButtons.length) {
+  setNewsPage("1");
+
+  newsPageButtons.forEach((button) => {
+    ["mouseenter", "focus", "click"].forEach((eventName) => {
+      button.addEventListener(eventName, () => {
+        setNewsPage(button.dataset.newsTarget);
+      });
+    });
   });
 }
 
