@@ -120,15 +120,15 @@ doc = SimpleDocTemplate(
 
 story = [
     p("Mohammad Imran Hossain", styles["Name"]),
-    p("PhD Applicant in AI for Healthcare", styles["Role"]),
+    p("MSCA Doctoral Candidate | Medical AI & Cancer Research", styles["Role"]),
     p(
-        "Paris Area, France | hossainimran.maia@gmail.com | github.com/imran-maia | linkedin.com/in/mohammad-imran-hossain-23721812a",
+        "Stockholm, Sweden | hossainimran.maia@gmail.com | github.com/imran-maia | linkedin.com/in/mohammad-imran-hossain-23721812a",
         styles["Contact"],
     ),
     p(
-        "Research engineer with training across computational pathology, multimodal AI, and medical image analysis. "
-        "Current work at Institut Curie focuses on integrating histopathology and spatial transcriptomics to study the tumor microenvironment. "
-        "Seeking PhD positions for the 2026/2027 intake in multimodal medical AI, computational pathology, and medical image analysis.",
+        "Doctoral researcher with training across computational pathology, multimodal AI, and medical image analysis. "
+        "Current doctoral work at Karolinska Institutet focuses on AI-driven breast cancer risk prediction and personalized screening using mammography and breast MRI. "
+        "Member of the EU-funded HER-CARE MSCA Doctoral Network (DC09).",
         styles["Body"],
     ),
 ]
@@ -145,11 +145,16 @@ story += [
 story += section("Research Experience")
 story += [
     entry(
+        "MSCA Doctoral Candidate - HER-CARE (DC09)",
+        "Karolinska Institutet, Stockholm, Sweden | 2026 - Present",
+        body="Department of Medical Epidemiology and Biostatistics. AI-driven breast cancer risk prediction and personalized screening using mammography and breast MRI. EU-funded MSCA Doctoral Network.",
+    ),
+    entry(
         "Research Engineer - Bioinformatics & AI",
-        "Institut Curie - PSL Research University, Paris, France | Oct 2025 - Present",
+        "Institut Curie - PSL Research University, Paris, France | From Oct 2025 (prior role)",
         bullets=[
-            "Developing multimodal computational pipelines integrating histopathology and spatial transcriptomics to study tumor microenvironment dynamics.",
-            "Contributing to clinically grounded AI workflows for cancer biology with a focus on reproducible analysis and manuscript preparation.",
+            "Developed multimodal computational pipelines integrating histopathology and spatial transcriptomics to study tumor microenvironment dynamics.",
+            "Contributed to clinically grounded AI workflows for cancer biology with a focus on reproducible analysis and manuscript preparation.",
         ],
     ),
     entry(
