@@ -1,0 +1,418 @@
+{
+  "name": "Mohammad Imran Hossain",
+  "role": "Marie Skłodowska-Curie Actions (MSCA) Doctoral Fellow | Medical AI & Computational Oncology",
+  "location": "Stockholm, Sweden",
+  "email": "hossainimran.maia@gmail.com",
+  "links": [
+    [
+      "Research website",
+      "https://imran-maia.github.io/"
+    ],
+    [
+      "Karolinska profile",
+      "https://ki.se/en/people/md-imran-hossain"
+    ],
+    [
+      "Google Scholar",
+      "https://scholar.google.com/citations?user=ypmKWxkAAAAJ"
+    ],
+    [
+      "GitHub",
+      "https://github.com/imran-maia"
+    ],
+    [
+      "LinkedIn",
+      "https://www.linkedin.com/in/mohammad-imran-hossain-23721812a/"
+    ]
+  ],
+  "pages": [
+    [
+      {
+        "heading": "Research Profile",
+        "entries": [
+          {
+            "paragraphs": [
+              "MSCA doctoral researcher at Karolinska Institutet working at the intersection of medical imaging, artificial intelligence, and cancer epidemiology. My doctoral research investigates mammography-based breast cancer risk prediction and the predictive value of a negative breast MRI, with the aim of informing evidence-based, personalized screening strategies.",
+              "My research experience spans computational pathology, spatial transcriptomics, multimodal data analysis, and accelerated MRI reconstruction. Through research appointments in France and the Netherlands and an Erasmus Mundus education across three European countries, I have developed computational workflows that connect imaging and molecular data with clinically motivated questions. My methodological interests include self-supervised representation learning, multiple-instance learning, rigorous model evaluation, and trustworthy medical AI."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Education",
+        "entries": [
+          {
+            "title": "PhD studies — Medical AI and Cancer Epidemiology",
+            "meta": "Karolinska Institutet, Stockholm, Sweden | October 2026–present",
+            "paragraphs": [
+              "Department of Medical Epidemiology and Biostatistics; HER-CARE MSCA Doctoral Network, doctoral project DC09. Main supervisor: Mikael Eriksson, PhD.",
+              "Research focus: evaluation and development of AI risk models and assessment of breast MRI for personalized breast cancer screening."
+            ]
+          },
+          {
+            "title": "MSc — Bioinformatics and Modeling",
+            "meta": "Sorbonne Université, Paris, France | September 2024–September 2025",
+            "paragraphs": [
+              "Grade: 14.85/20; ranked 1st of 8; Best Master’s Thesis Award.",
+              "Thesis: Identification of Tumor Gene Signatures Underlying Fibroblast-Mediated T Cell Exclusion in Lung Cancer Using Spatial Transcriptomics. Research undertaken at Institut Curie in collaboration with Sanofi."
+            ]
+          },
+          {
+            "title": "Erasmus Mundus Joint MSc — Medical Imaging and Applications (MAIA)",
+            "meta": "September 2022–August 2024 | Erasmus Mundus Scholar",
+            "paragraphs": [
+              "University of Burgundy Europe, France; University of Cassino and Southern Lazio, Italy; University of Girona, Spain. Final grade: 8.30/10.",
+              "International training in medical image analysis and machine learning, including segmentation, registration, classification, and reconstruction. Awarded a fully funded European Union scholarship valued at approximately €42,000."
+            ]
+          },
+          {
+            "title": "BSc — Electrical and Electronic Engineering",
+            "meta": "United International University, Dhaka, Bangladesh | February 2018–June 2022",
+            "paragraphs": [
+              "GPA: 3.97/4.00; ranked 1st of 120; Summa Cum Laude Award. Received a 100% tuition fee waiver for 12 consecutive trimesters, covering the full undergraduate degree."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Research Experience",
+        "entries": [
+          {
+            "title": "MSCA Doctoral Fellow — Medical AI and Computational Oncology",
+            "meta": "Karolinska Institutet, Stockholm, Sweden | October 2026–present",
+            "bullets": [
+              "Investigating AI-based breast cancer risk prediction and personalized screening within the HER-CARE MSCA Doctoral Network (DC09), in the Department of Medical Epidemiology and Biostatistics.",
+              "Developing and evaluating mammography-based approaches to short-term breast cancer risk prediction, connecting imaging information with subsequent cancer outcomes and epidemiological data.",
+              "Examining the predictive value of a negative breast MRI to help characterize future cancer risk and inform decisions about supplemental imaging and screening intervals.",
+              "Research priorities include calibration, consistency of performance across populations, and clinically meaningful evaluation of predicted risk."
+            ]
+          },
+          {
+            "title": "Research Engineer — Bioinformatics and Artificial Intelligence",
+            "meta": "Institut Curie & PSL Research University, Paris, France | October 2025–September 2026",
+            "bullets": [
+              "Built reproducible computational workflows combining 10x Visium HD spatial transcriptomics and histopathology to study breast and lung cancer.",
+              "Integrated cell-type deconvolution, spatial mapping, and tumor microenvironment analysis to investigate the organization of malignant, stromal, and immune compartments.",
+              "Combined unsupervised clustering, computational modeling, and multimodal data analysis to connect tissue morphology with spatially resolved molecular information.",
+              "Collaborated with biologists and clinicians on the interpretation of computational analyses and contributed to research mentoring."
+            ]
+          },
+          {
+            "title": "Research Intern — Bioinformatics and Spatial Transcriptomics",
+            "meta": "Institut Curie, Paris, France | Sanofi collaboration | February–August 2025",
+            "bullets": [
+              "Conducted MSc thesis research on fibroblast-mediated T-cell exclusion in lung cancer using spatial transcriptomics.",
+              "Analyzed Visium V2 and Visium HD cohorts using spatial clustering, cell-type deconvolution, and statistical and deep learning methods.",
+              "Identified candidate genes associated with fibroblast-mediated T-cell exclusion and investigated spatial relationships within the tumor microenvironment.",
+              "Connected computational findings with a biological question in tumor immune exclusion; the thesis received Sorbonne Université’s Best Master’s Thesis Award."
+            ]
+          },
+          {
+            "title": "Research Intern — Computational Pathology",
+            "meta": "National Center for Scientific Research (CNRS), Dijon, France | February–July 2024",
+            "bullets": [
+              "Benchmarked supervised, weakly supervised, and self-supervised approaches to homologous recombination deficiency prediction from breast and ovarian cancer whole-slide H&E images for the MAIA MSc thesis.",
+              "Evaluated CNNs and multiple-instance learning architectures, including AB-MIL, CLAM, HIPT, DSMIL, and TransMIL, together with self-supervised Phikon features.",
+              "The best evaluated Phikon feature and TransMIL configuration achieved ROC-AUC values of 0.78 for breast cancer and 0.68 for ovarian cancer on the studied cohorts."
+            ]
+          },
+          {
+            "title": "Visiting Researcher — Medical Image Analysis",
+            "meta": "Diagnostic Image Analysis Group, Radboud University Medical Center, Nijmegen, Netherlands | August–October 2023",
+            "bullets": [
+              "Investigated accelerated MRI reconstruction for interventional imaging using U-Net and undersampled k-space data.",
+              "Developed preprocessing workflows for k-space undersampling and evaluated deep learning reconstruction approaches in the context of interventional MRI."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Selected Machine Learning and Medical Imaging Projects",
+        "entries": [
+          {
+            "title": "Automatic Brain Tissue Segmentation from MRI",
+            "meta": "University of Girona | MAIA Segmentation Challenge | 2023",
+            "bullets": [
+              "Developed pipelines for gray matter, white matter, and cerebrospinal fluid segmentation on IBSR18 brain MRI, incorporating N4 bias-field correction, anisotropic diffusion, normalization, patch extraction, and data augmentation.",
+              "Compared probabilistic atlas-based segmentation with U-Net, LinkNet, and 2D/3D nnU-Net. The 3D nnU-Net achieved a mean Dice score of 0.937 ± 0.012; the project placed second in the MAIA brain tissue segmentation challenge."
+            ],
+            "url": "https://github.com/imran-maia/IBSR_18_BraTSeg_Deep_Learning",
+            "link_label": "Code: brain tissue segmentation"
+          },
+          {
+            "title": "Cardiac Structure Segmentation from 2D Echocardiograms",
+            "meta": "Sorbonne Université | 2025",
+            "bullets": [
+              "Developed and compared U-Net and nnU-Net pipelines for segmentation of the left ventricular endocardium, left ventricular epicardium, and left atrium in 2D echocardiography.",
+              "nnU-Net achieved Dice scores of 0.94, 0.91, and 0.93, respectively, outperforming U-Net. Reported boundary errors were approximately 8–9 mm for HD95 and 0.28–0.44 mm for mean absolute distance."
+            ]
+          },
+          {
+            "title": "Skin Lesion Classification with Machine Learning and Deep Learning",
+            "meta": "University of Girona | MAIA CADx Challenges | 2023",
+            "bullets": [
+              "Developed binary and multiclass classification pipelines using handcrafted features, feature selection, and classifier ensembles; implemented deep learning transfer learning with ResNet/ResNeXt, DenseNet, EfficientNet, and Swin transformers.",
+              "Used normalization, geometric and color augmentation, and prediction-averaging ensembles. The conventional machine learning pipeline achieved binary test accuracy of 0.8590 and multiclass test Cohen’s kappa of 0.74.",
+              "Best recorded deep learning ensemble validation results were 0.9070 binary accuracy, 0.9693 multiclass accuracy, and 0.9448 multiclass Cohen’s kappa. These validation results are distinct from the conventional pipeline’s test results. Both approaches placed second in their respective MAIA CADx challenges."
+            ],
+            "url": "https://github.com/imran-maia/Skin-Lesion-Classification-Machine-Learning",
+            "link_label": "Code: skin lesion classification"
+          },
+          {
+            "title": "Deformable Lung CT Registration",
+            "meta": "University of Girona | 2023",
+            "bullets": [
+              "Developed pipelines to align inspiratory and expiratory lung CT scans from four COPDgene cases, including intensity preprocessing and lung segmentation.",
+              "Compared affine and B-spline registration with Elastix/Transformix against VoxelMorph. Mean target registration error was 2.08 ± 2.26 mm for the intensity-based approach and 2.18 ± 2.74 mm for VoxelMorph; limited training data constrained the learning-based approach."
+            ],
+            "url": "https://github.com/imran-maia/COPDGen-Lung-CT-Registration",
+            "link_label": "Code: lung CT registration"
+          },
+          {
+            "title": "Breast Cancer Molecular Subtype Classification from Multi-omics Data",
+            "meta": "Sorbonne Université | 2024",
+            "bullets": [
+              "Integrated DNA methylation, copy-number variation, mRNA, and miRNA data from TCGA-BRCA for molecular subtype classification.",
+              "Implemented exploratory data analysis, preprocessing, early data fusion, and feature selection, and compared six classifiers. XGBoost achieved the best balanced multiclass accuracy of 0.82."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Additional Research Projects",
+        "entries": [
+          {
+            "title": "Mammographic Breast Mass Detection",
+            "meta": "University of Cassino and Southern Lazio | 2023",
+            "paragraphs": [
+              "Developed an end-to-end mammographic mass detection pipeline combining multi-scale morphological shifting, mean shift filtering, k-means segmentation, feature extraction, and machine learning classification using the uCAS ML framework. Reported sensitivity was 0.96, specificity 0.95, and accuracy 0.95. Presented the work as a poster at the 17th EXCITE Summer School on Biomedical Imaging."
+            ],
+            "url": "https://github.com/imran-maia/Breast-Mass-Detection-Machine-Learning",
+            "link_label": "Code: mammographic mass detection"
+          },
+          {
+            "title": "Skin Lesion Classification with Transfer Learning and Hybrid Models",
+            "meta": "University of Cassino and Southern Lazio | 2023",
+            "paragraphs": [
+              "Developed a two-stage classification pipeline on ISIC 2017 dermoscopic images: benign versus other lesions, followed by melanoma versus seborrheic keratosis. Compared fine-tuned CNNs with pretrained features and machine learning classifiers after resizing, normalization, and class balancing. On the 600-image test set, Xception features with Random Forest achieved balanced multiclass accuracy of 0.79, compared with 0.76 for the best transfer learning models."
+            ],
+            "url": "https://github.com/imran-maia/Skin-Lesion-Classification-Transfer-Learning",
+            "link_label": "Code: transfer learning and hybrid classification"
+          },
+          {
+            "title": "Alzheimer’s Disease Classification from Imaging and Gene-expression Features",
+            "meta": "University of Cassino and Southern Lazio | MAIA Statistical Learning Challenge | 2023",
+            "paragraphs": [
+              "Built a pipeline for Alzheimer’s disease versus controls, Alzheimer’s disease versus mild cognitive impairment, and mild cognitive impairment versus controls. Applied collinearity and correlation filtering, LASSO, Boruta, and PCA, and compared classifiers using 10-fold cross-validation. QDA with Boruta or LASSO gave reported training-set AUCs of 0.963, 0.831, and 0.876 for the three tasks, respectively; these are training-set results rather than held-out test estimates."
+            ],
+            "url": "https://github.com/imran-maia/Alzheimer-Classification-Challenge",
+            "link_label": "Code: Alzheimer’s disease classification"
+          }
+        ]
+      },
+      {
+        "heading": "Research Manuscripts — Preprints",
+        "entries": [
+          {
+            "title": "Deep Learning and Classical Computer Vision Techniques in Medical Image Analysis: Case Studies",
+            "meta": "Tweneboah, A. D., Ahmed, S. T., & Hossain, M. I. | 2025",
+            "paragraphs": [
+              "arXiv:2502.19258. Preprint; not peer reviewed. Case studies spanning brain MRI tissue segmentation, lung CT registration, and skin lesion classification."
+            ],
+            "url": "https://arxiv.org/abs/2502.19258",
+            "link_label": "Read preprint: arXiv:2502.19258"
+          },
+          {
+            "title": "Comparative Study of Probabilistic Atlas and Deep Learning Approaches for Automatic Brain Tissue Segmentation from MRI",
+            "meta": "Hossain, M. I., Amin, M. Z., Anyimadu, D. T., & Suleiman, T. A. | 2024",
+            "paragraphs": [
+              "arXiv:2411.05456. Preprint; not peer reviewed. Comparison of atlas-based and deep learning approaches with MRI preprocessing, including N4 bias correction and anisotropic diffusion."
+            ],
+            "url": "https://arxiv.org/abs/2411.05456",
+            "link_label": "Read preprint: arXiv:2411.05456"
+          }
+        ]
+      },
+      {
+        "heading": "Specialist Training and Research Presentations",
+        "entries": [
+          {
+            "title": "17th EXCITE Summer School on Biomedical Imaging",
+            "meta": "ETH Zürich & University of Zürich, Switzerland | 2023",
+            "bullets": [
+              "Completed specialist biomedical imaging training worth 4 ECTS credits.",
+              "Presented a research poster on mammographic breast mass detection, communicating the image processing and machine learning workflow and its results."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Fellowships, Scholarships, and Academic Honors",
+        "entries": [
+          {
+            "title": "Marie Skłodowska-Curie Actions Doctoral Fellowship",
+            "meta": "Karolinska Institutet | 2026–2030",
+            "paragraphs": [
+              "Awarded a fully funded doctoral position through the European Commission’s MSCA Doctoral Networks programme within HER-CARE. Funding includes employment salary, mobility allowance, and family allowance in accordance with the grant agreement and Swedish employment regulations."
+            ]
+          },
+          {
+            "title": "Erasmus Mundus Joint Master’s Scholarship",
+            "meta": "European Union | 2022–2024",
+            "paragraphs": [
+              "Awarded a fully funded scholarship for the MAIA programme, valued at approximately €42,000, covering tuition fees, monthly living stipends, travel, and installation allowances."
+            ]
+          },
+          {
+            "title": "Best Master’s Thesis Award",
+            "meta": "Sorbonne Université | 2025",
+            "paragraphs": [
+              "Recognized for master’s thesis research in bioinformatics and computational oncology on spatial transcriptomics and fibroblast-mediated T-cell exclusion in lung cancer."
+            ]
+          },
+          {
+            "title": "Second Place — MAIA Research Challenges",
+            "meta": "University of Girona | 2023",
+            "paragraphs": [
+              "Placed second in brain tissue segmentation and in the machine learning and deep learning skin lesion classification challenges."
+            ]
+          },
+          {
+            "title": "Stipendium Hungaricum Scholarship",
+            "meta": "Hungarian Government | Master’s scholarship award",
+            "paragraphs": [
+              "Awarded a fully funded scholarship for master’s studies at Budapest University of Technology and Economics (BME), including tuition coverage and a monthly stipend."
+            ]
+          },
+          {
+            "title": "Undergraduate Merit Scholarship and Summa Cum Laude",
+            "meta": "United International University | Undergraduate studies, 2018–2022",
+            "paragraphs": [
+              "Received a 100% tuition fee waiver for 12 consecutive trimesters, covering the entire undergraduate degree. Graduated Summa Cum Laude with a GPA of 3.97/4.00 and ranked 1st of 120."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Teaching and Research Mentoring",
+        "entries": [
+          {
+            "title": "Undergraduate Teaching Assistant",
+            "meta": "United International University, Dhaka, Bangladesh | 2020–2022",
+            "paragraphs": [
+              "Supported more than 100 students through laboratory instruction, technical demonstrations, and practical coursework assistance. Helped students apply course concepts during hands-on laboratory activities."
+            ]
+          },
+          {
+            "title": "Research Mentoring Contributions",
+            "meta": "Institut Curie & PSL Research University | 2025–2026",
+            "paragraphs": [
+              "Contributed to research mentoring alongside bioinformatics and AI workflow development, within an interdisciplinary environment involving computational researchers, biologists, and clinicians."
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "heading": "Professional Affiliations, Leadership, and Volunteering",
+        "entries": [
+          {
+            "title": "Marie Curie Alumni Association (MCAA)",
+            "paragraphs": [
+              "Member."
+            ]
+          },
+          {
+            "title": "Erasmus Mundus Association (EMA)",
+            "paragraphs": [
+              "Program Representative."
+            ]
+          },
+          {
+            "title": "Erasmus Mundus Association — Bangladesh Chapter",
+            "paragraphs": [
+              "Coordinator, Event Management and Research & Development."
+            ]
+          },
+          {
+            "title": "Students’ International Affairs Society (SIAS)",
+            "meta": "United International University, Bangladesh",
+            "paragraphs": [
+              "Advisor & Vice President."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Research Interests",
+        "entries": [
+          {
+            "paragraphs": [
+              "Medical AI and breast cancer risk prediction; personalized screening; computational pathology and vision foundation models; multimodal integration of imaging, molecular, and epidemiological data; spatial tumor microenvironment analysis; self-supervised and weakly supervised learning; medical image segmentation, registration, and reconstruction; model calibration and evaluation across populations."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Technical and Research Skills",
+        "entries": [
+          {
+            "title": "Machine Learning Frameworks",
+            "paragraphs": [
+              "PyTorch; TensorFlow/Keras; Hugging Face; scikit-learn."
+            ]
+          },
+          {
+            "title": "Representation Learning and Modeling",
+            "paragraphs": [
+              "CNNs; U-Net and nnU-Net; vision foundation models; transfer learning; self-supervised representation learning, including DINO, masked image modeling (MIM), and iBOT; multiple-instance learning, including AB-MIL and TransMIL; multimodal modeling; diffusion models."
+            ]
+          },
+          {
+            "title": "Medical Imaging and Computer Vision",
+            "paragraphs": [
+              "MONAI; OpenCV; OpenSlide; ITK-SNAP; Elastix. Research applications include whole-slide image analysis, segmentation, deformable registration, MRI reconstruction, and image classification."
+            ]
+          },
+          {
+            "title": "Computational Biology and Spatial Analysis",
+            "paragraphs": [
+              "Seurat; Scanpy; Squidpy; SpatialData. Experience with 10x Visium V2 and Visium HD, cell-type deconvolution, spatial clustering, tumor microenvironment analysis, and integration of histopathology with spatial transcriptomics."
+            ]
+          },
+          {
+            "title": "Programming and Scientific Computing",
+            "paragraphs": [
+              "Python; R; MATLAB; Bash; C/C++; CUDA. Linux and high-performance computing; GPU computing; Docker; Singularity; Git, GitHub, and GitLab."
+            ]
+          },
+          {
+            "title": "Quantitative Evaluation and Reproducible Research",
+            "paragraphs": [
+              "ROC-AUC, balanced accuracy, Cohen’s kappa, Dice overlap, HD95, mean absolute distance, and target registration error; cross-validation and comparative benchmarking; reproducible preprocessing and analysis workflows. Current doctoral interests include risk calibration and evaluation of performance across populations."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Research Profiles and Open-source Work",
+        "entries": [
+          {
+            "paragraphs": [
+              "Research summaries, project figures, preprints, and code links are available through my website and GitHub profile. Institutional and scholarly profiles provide further information about my research activities."
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}
