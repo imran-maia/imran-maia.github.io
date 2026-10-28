@@ -1566,3 +1566,40 @@ h1, h2, h3, h4, .institution, .project-meta, .footer-signature { overflow-wrap: 
  .news-pagination button { min-width: 44px; min-height: 44px; }
  .hero-actions .socials a { width: 44px; height: 44px; min-width: 44px; }
 }
+/* Phone homepage: portrait, introduction, then recent updates. */
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 26px;
+    padding-top: 24px;
+    align-items: start;
+  }
+  .hero > .profile-sidebar { display: contents; }
+  .hero > .profile-sidebar > .portrait {
+    grid-column: 1;
+    grid-row: 1;
+    width: min(100%, 280px);
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .hero > .profile-sidebar > .portrait .portrait-frame { width: 100%; }
+  .hero > .profile-sidebar > .portrait img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  .hero > .profile-sidebar > .portrait figcaption {
+    font-size: 12px;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-top: 12px;
+  }
+  .hero > .hero-copy { grid-column: 1; grid-row: 2; width: 100%; }
+  .hero > .profile-sidebar > .profile-updates {
+    grid-column: 1;
+    grid-row: 3;
+    width: 100%;
+    margin-top: 0;
+  }
+}
