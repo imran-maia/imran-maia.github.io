@@ -1541,9 +1541,11 @@ h1, h2, h3, h4, .institution, .project-meta, .footer-signature { overflow-wrap: 
  .profile-sidebar { grid-template-columns: 1fr; }
  .profile-sidebar .portrait { max-width: 300px; }
  .archive-grid, .publication-grid, .community-grid { grid-template-columns: minmax(0, 1fr); }
- .hero-actions { align-items: flex-start; }
- .hero-actions .profile-link-row { width: 100%; gap: 12px; }
- .hero-actions .socials { gap: 6px; }
+ .hero .hero-actions { align-items: center; gap: 10px; }
+ .hero-actions .profile-link-row,
+ .hero-actions .socials { display: contents; }
+ .hero-actions .institution-profile { order: 1; min-height: 44px; }
+ .hero-actions .profile-link-divider { display: none; }
  .project-text { padding: 22px; }
  .project-text h3 { font-size: 24px; }
  .activity-feature-story { padding: 18px; gap: 24px; }
